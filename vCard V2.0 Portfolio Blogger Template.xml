@@ -11,8 +11,8 @@
 Template Name : vCard
 Version       : V2.0
 Distributer   : Protemplates 
-Website       : https://protemplates.org
-
+Website       : https://imamuddinwp.blogspot.com
+License		  : Only for testing and practising purpose. I do not sell any template. 
 
 
 -->
@@ -1913,43 +1913,26 @@ window.addEventListener("load",function(){var e=!1;$(document).on("scroll",funct
 	    <div class='container gutter-top'>
 		    <!-- Header -->
 		    <header class='header box'>
-			    <div class='header__left'>
-				    <div class='header__photo'>
-					    <img alt='Ronald Robertson' class='header__photo-img' src='https://1.bp.blogspot.com/-qFBv8Hq3oIE/X8qMDsAo_wI/AAAAAAAADZA/U3T9yvmpHkAQwFxDD3umevjIftCZ8l-ugCLcBGAsYHQ/s600/avatar.jpg'/>
-					</div>
-					<div class='header__base-info'>
-					    <h4 class='title titl--h4'>Ronald Robertson</h4>
-						<div class='status'>Creative Director</div>
-						<ul class='header__social'>
-						    <li><a href='https://www.facebook.com'><i class='font-icon icon-facebook1'/></a></li>
-						    <li><a href='https://www.twitter.com'><i class='font-icon icon-twitter1'/></a></li>
-							<li><a href='https://www.instagram.com'><i class='font-icon icon-instagram1'/></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class='header__right'>
-				    <ul class='header__contact'>
-					    <li><span class='overhead'>Email</span>ronald@example.com</li>
-						<li><span class='overhead'>Phone</span>+1 (070) 123&#8211;8459</li>
-					</ul>
-					<ul class='header__contact'>
-					    <li><span class='overhead'>Birthday</span>17 March, 1995</li>
-						<li><span class='overhead'>Location</span>San-Francisco, USA</li>
-					</ul>
-				</div>
+			    <div class='header__left'><div class='header__photo'><img alt='seo-expert-in-bd-imam-uddin-imamuddinwp' class='header__photo-img' data-original-height='589' data-original-width='586' height='589' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyxJ4QJifjV_T-5AFmMISTpd5PCefGgYFgsfAZZAkjiGiSTwnz6wuQkypfN44KMz89olHt_0qZZN-FrbFcfO4l2NTDBBwvkoshlvFR5KujBe6gGJ9YKmgY26jT3KYtfZ06obwJPFvw4KAx263H4Aepmp5__QtPJFc2pQr1wdpsqUcoKJcfzZ_wG25JWg/s1600-rw/seo-expert-in-bd-imam-uddin-imamuddinwp.webp' width='586'/>
+</div>
+<div class='header__base-info'><h4 class='title titl--h4'><a href='https://imamuddinwp.blogspot.com' target='_blank'>Imam Uddin</a></h4>
+<div class='status'>SEO Expert | Blogger</div>
+<ul class='header__social'><li><a href='https://www.linkedin.com/in/imamuddinwp/' target='_blank'><i class='font-icon icon-linkedin1'/></a></li><li><a href='https://www.twitter.com/imamuddinwp' target='_blank'><i class='font-icon icon-twitter1'/></a></li><li><a href='https://github.com/imamuddinwp' target='_blank'><i class='font-icon icon-github1'/></a></li><li><a href='https://www.facebook.com/imamuddinwp' target='_blank'><i class='font-icon icon-facebook1'/></a></li></ul></div>
+</div>
+				<div class='header__right'><ul class='header__contact'><li><span class='overhead'>Email: </span><a href='mailto:imamcu07@gmail.com' target='_blank'>imamcu07@gmail.com</a></li><li><span class='overhead'>Phone:</span>
+<a href='tel:+8801815682307' target='_blank'>+880 1815 682307</a></li></ul>
+<ul class='header__contact'><li><span class='overhead'>DOB:</span>01st January, 1988</li><li><span class='overhead'>Location:</span>
+<a href='https://g.page/imam-uddin-imamuddinwp?share' target='_blank'>Chittagong, Bangladesh</a></li></ul>
+</div>
 			</header>
 			
 		    <div class='row sticky-parent'>
 			    <!-- Sidebar nav -->
                 <aside class='col-12 col-md-12 col-lg-2'>
 				    <div class='sidebar box sticky-column'>
-	                    <ul class='nav'>
-                            <li class='nav__item'><a href='/'><b:class cond='data:view.isHomepage' name='active'/><i class='icon-user'/>About</a></li>
-							<li class='nav__item'><a href='/p/resume.html'><i class='icon-file-text'/>Resume</a></li>
-                            <li class='nav__item'><a href='/p/works.html'><i class='icon-codesandbox'/>Works</a></li>
-                            <li class='nav__item'><a href='/search'><b:class cond='data:view.isPost' name='active'/><i class='icon-book-open'/>Blog</a></li>
-                            <li class='nav__item'><a href='/p/contact.html'><i class='icon-book'/>Contact</a></li>
-                        </ul>
+	                    <ul class='nav'><li class='nav__item'><a class='' href='https://imamuddinwp.blogspot.com/'>
+<i class='icon-user'/>About</a></li><li class='nav__item'><a class='active' href='https://imamuddinwp.blogspot.com/p/resume-of-imam-uddin.html'><i class='icon-file-text'/>Resume</a></li><li class='nav__item'><a href='https://imamuddinwp.blogspot.com/p/portfolio.html'><i class='icon-codesandbox'/>Portfolio</a></li><li class='nav__item'><a href='https://imamuddinwp.blogspot.com/search'>
+<i class='icon-book-open'/>Blog</a></li><li class='nav__item'><a href='https://imamuddinwp.blogspot.com/p/contact.html'><i class='icon-map-pin'/>Contact</a></li></ul>
 					</div>
 		        </aside>
 		        
@@ -1958,165 +1941,134 @@ window.addEventListener("load",function(){var e=!1;$(document).on("scroll",funct
 <b:if cond='data:view.isHomepage'>
   <div class='box box-content'>
 <div class='pb-0 pb-sm-2'>
-    <h1 class='title title--h1 first-title title__separate'>About Me</h1>
-    <p>I&#39;m Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
-    <p>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and
-        identity in the most creative way. I created web design for many famous brand companies.</p>
+<h1 class='title title--h1 first-title title__separate'>About Me</h1>
+<h2 class='title title--h3'>Who <span>Am I?</span></h2>
+<p>Hey there; it&#8217;s me! 🤠 <a href='https://imamuddinwp.com/' rel='noopener' target='_blank'><strong> Imam Uddin</strong></a>, <a href='https://sites.google.com/view/imamuddinwp/' rel='noopener' target='_blank'><em>imamuddinwp</em></a>; A passionate Front-End Web Developer &amp; SEO Expert; Founder of <b><i>Alhamdulillah Tech</i></b>.</p>
+<p>I have professional experience in E-commerce Store Design on <a href='https://www.behance.net/imamuddinwp' rel='noopener' target='_blank'><strong>Shopify</strong></a>, <a href='https://imamuddinwp.wixsite.com/imamuddin' rel='noopener' target='_blank'><strong>WiX</strong></a>, and <a href='https://wordpress.org/' rel='noopener' target='_blank'><strong>WordPress</strong></a> platforms. I&#8217;m very much enthusiastic about <a href='https://blog.hubspot.com/marketing/seo-strategy' rel='noopener' target='_blank'><strong>SEO</strong></a>, <strong><a href='https://www.forbes.com/sites/forbesagencycouncil/2020/05/01/the-importance-of-technical-optimization-for-seo/?sh=5f5a8fd3d3eb' rel='noopener' target='_blank'>Technical SEO</a></strong>, and <a href='https://www.brightlocal.com/learn/local-seo-complete-guide/' rel='noopener' target='_blank'><strong>Local SEO</strong></a>.</p>
+<p>Need to know more about me? Just go to Google and simply search by typing &#8216;<a href='https://www.google.com/search?q=imam+uddin+imamuddinwp' rel='noopener' target='_blank'><strong>imamuddinwp</strong></a>&#8216; 🕵 in the search box, and you will definitely see my online activities! 🙂.</p>
 </div>
 
 <!-- What -->
 <div class='mt-1'>
-    <h2 class='title title--h3'>What I&#39;m Doing</h2>
-    <div class='row'>
-        <!-- Case Item -->
-        <div class='col-12 col-lg-6'>
-            <div class='case-item'>
-                <img alt='' class='case-item__icon' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/icon-design.svg'/>
-                <div>
-                    <h3 class='title title--h4'>Web Design</h3>
-                    <p class='case-item__caption'>The most modern and high-quality design made at a professional level.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Case Item -->
-        <div class='col-12 col-lg-6'>
-            <div class='case-item'>
-                <img alt='' class='case-item__icon' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/icon-dev.svg'/>
-                <div>
-                    <h3 class='title title--h4'>Web Development</h3>
-                    <p class='case-item__caption'>High-quality development of sites at the professional level.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Case Item -->
-        <div class='col-12 col-lg-6'>
-            <div class='case-item'>
-                <img alt='' class='case-item__icon' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/icon-app.svg'/>
-                <div>
-                    <h3 class='title title--h4'>Mobile Apps</h3>
-                    <p class='case-item__caption'>Professional development of applications for iOS and Android.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Case Item -->
-        <div class='col-12 col-lg-6'>
-            <div class='case-item'>
-                <img alt='' class='case-item__icon' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/icon-photo.svg'/>
-                <div>
-                    <h3 class='title title--h4'>Photography</h3>
-                    <p class='case-item__caption'>I make high-quality photos of any category at a professional level.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h2 class='title title--h3'>What I&#39;m Doing?</h2>
+  <div class='row'><div class='col-12 col-lg-6'><div class='case-item'>
+<img alt='SEO-expert-imamuddinwp' border='0' class='case-item__icon' data-original-height='40' data-original-width='40' height='40' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPn73-NAT1N7GfyqkzZTYthyZEqz8LzyvXaZo3oh82N4uJiG0Gzjo-sqaTd60GJ3yvf5odgIeUjURbsuHR3nYpaSyg0BM-NIqzsQP2HCYVkESe2dRoyIGlTkgteBg8FIcXp0R4o2m_vfrumP3CCIN29-M24lvW4j6wS1kP3q_rUf2WaeiEbryCtSROZQ/s1600-rw/icon-design.webp' width='40'/>
+<div>
+<h3 class='title title--h4'>Responsive Web Design</h3>
+<p class='case-item__caption'><b><a href='https://www.forbes.com/sites/brianrashid/2017/06/13/5-essential-reasons-and-benefits-why-you-should-be-using-a-responsive-website-design-now/' rel='noopener noreferrer' target='_blank'>Responsive Web Design</a></b> will make your site <b><a href='https://developers.google.com/search/mobile-sites/get-started' rel='noopener noreferrer' target='_blank'> Mobile-Friendly</a></b>, improve the way it looks on devices (large/small screens like desktop, laptop, tab, smartphones etc).</p>
 </div>
-
-<!-- Testimonials -->
-<div class='mt-2'>
-    <h2 class='title title--h3'>Testimonials</h2>
-    <div class='swiper-container js-carousel-review'>
-        <div class='swiper-wrapper'>
-            <!-- Item review -->
-            <div class='swiper-slide review-item'>
-                <svg class='avatar avatar--80' viewBox='0 0 84 84'>
-                                            <g class='avatar__hexagon'>
-                                                <image height='100%' width='100%' xlink:href='https://1.bp.blogspot.com/-63xFAoBQ5S8/X8qYfgIINdI/AAAAAAAADZU/6kGmZ9jEk_YUs2I53KvNYfcCr3qDiQsqQCLcBGAsYHQ/s700/avatar-2.jpg'/>
-                                            </g>
-                                        </svg>
-                <div class='review-item__textbox'>
-                    <h4 class='title title--h5'>Daniel Lewis</h4>
-                    <p class='review-item__caption'>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                </div>
-            </div>
-
-            <!-- Item review -->
-            <div class='swiper-slide review-item'>
-                <svg class='avatar avatar--80' viewBox='0 0 84 84'>
-                                            <g class='avatar__hexagon'>
-                                                <image height='100%' width='100%' xlink:href='https://1.bp.blogspot.com/-V35L83C8p9I/X8qYfp06r9I/AAAAAAAADZY/nRCfHvOOnBsznGx9EQsOkP0hoBdWWOfAACLcBGAsYHQ/s700/avatar-3.jpg'/>
-                                            </g>
-                                        </svg>
-                <div class='review-item__textbox'>
-                    <h4 class='title title--h5'>Jessica Miller</h4>
-                    <p class='review-item__caption'>thanks to the skill of Felecia, we have a design that we can be proud of.</p>
-                </div>
-            </div>
-
-            <!-- Item review -->
-            <div class='swiper-slide review-item'>
-                <svg class='avatar avatar--80' viewBox='0 0 84 84'>
-                                            <g class='avatar__hexagon'>
-                                                <image height='100%' width='100%' xlink:href='https://1.bp.blogspot.com/-VEWflmMWzxQ/X8qYfk7INSI/AAAAAAAADZc/yKH7QacDuEowoMqtCWW3ZV_lidbN84n-gCLcBGAsYHQ/s700/avatar-4.jpg'/>
-                                            </g>
-                                        </svg>
-                <div class='review-item__textbox'>
-                    <h4 class='title title--h5'>Tanya Ruiz</h4>
-                    <p class='review-item__caption'>Felecia was hired to create a corporate identity. We were very pleased with the work done.</p>
-                </div>
-            </div>
-
-            <!-- Item review -->
-            <div class='swiper-slide review-item'>
-                <svg class='avatar avatar--80' viewBox='0 0 84 84'>
-                                            <g class='avatar__hexagon'>
-                                                <image height='100%' width='100%' xlink:href='https://1.bp.blogspot.com/-18dNJ4ceLfQ/X8qYgIGTG4I/AAAAAAAADZg/6WpwcOKFQG4P2m6yq5aC9u-MFUpmbXPagCLcBGAsYHQ/s700/avatar-5.jpg'/>
-                                            </g>
-                                        </svg>
-                <div class='review-item__textbox'>
-                    <h4 class='title title--h5'>Thomas Castro</h4>
-                    <p class='review-item__caption'>thanks to the skill of Felecia, we have a design that we can be proud of.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class='swiper-pagination'/>
-    </div>
 </div>
-
-<!-- Clients -->
-<div class='mt-4'>
-    <h2 class='title title--h3'>Clients</h2>
-
-    <div class='swiper-container js-carousel-clients'>
-        <div class='swiper-wrapper'>
-            <!-- Item client -->
-            <div class='swiper-slide'>
-                <a href='#'><img alt='Logo' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/logo-1.svg'/></a>
-            </div>
-
-            <!-- Item client -->
-            <div class='swiper-slide'>
-                <a href='#'><img alt='Logo' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/logo-2.svg'/></a>
-            </div>
-
-            <!-- Item client -->
-            <div class='swiper-slide'>
-                <a href='#'><img alt='Logo' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/logo-3.svg'/></a>
-            </div>
-
-            <!-- Item client -->
-            <div class='swiper-slide'>
-                <a href='#'><img alt='Logo' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/logo-4.svg'/></a>
-            </div>
-
-            <!-- Item client -->
-            <div class='swiper-slide'>
-                <a href='#'><img alt='Logo' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/logo-1.svg'/></a>
-            </div>
-
-            <!-- Item client -->
-            <div class='swiper-slide'>
-                <a href='#'><img alt='Logo' src='https://cdn.jsdelivr.net/gh/minhkhoi2001/code/vcard/logo-2.svg'/></a>
-            </div>
-        </div>
-
-        <div class='swiper-pagination'/>
-    </div>
+</div>
+<div class='col-12 col-lg-6'>
+<div class='case-item'>
+<img alt='Web-Design-Imam-Uddin-imamuddinwp' border='0' class='case-item__icon' data-original-height='40' data-original-width='40' height='40' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIA4QFOUpI4lP4COnIkmTGaMoFDP_vkTJiYWDzKmxqQXntoy567-pQgx2VU9wZx4ff0hl-aOEhLG_3Bbru1fs9mxCb-tERJr41agCyevocBJdupBs9419zFcotT_7okNPUoAu-3E7B4N609d5e2LsblYzLAYgFYSnn74iedQvCO6bWsejXGFwOO4kShw/s1600-rw/icon-dev.webp' width='40'/>
+<div>
+<h3 class='title title--h4'>Coding &amp; Web Development</h3>
+<p class='case-item__caption'>From beginning, I have started learning basic <b>HTML5</b>, <b>CSS3</b>, <b>Bootstrap</b>, <b>jQuery</b> especially <b><a href='https://www.udemy.com/courses/development/web-development/' target='_blank'>Web Development</a></b>. Check my codes on <b><a href='GitHub' target='_blank'>GitHub</a></b>, freeCodeCamp, <b><a href='https://codepen.io/imamuddinwp' target='_blank'>Codepen</a></b> , <b><a href='https://www.sololearn.com/profile/13136177' target='_blank'>SOLOLEARN</a></b> .</p>
+</div>
+</div>
+</div>
+<div class='col-12 col-lg-6'>
+<div class='case-item'>
+<img alt='shopify-expert-in-bangladesh-imamuddinwp' border='0' class='case-item__icon' data-original-height='40' data-original-width='40' height='40' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbL8K0mX4LAz_bhHUcvgkW2fC_tKBHyeuPAsj1ttwG5J1tF2vpJ0nmc8yE7ugPutuSvLPtmNVG-doDetS7Bf5j-tO7xJsSxkjqmqbv_EzFJZ4Jo5ZiCR8dR74voQLvZgFr-QiUF9w_JWgAB095blRvCdWj1wnHcUcd4j_gAyUkBfxk_lIQgkRzruFMXg/s1600-rw/shopify-expert-in-bangladesh.webp' width='40'/>
+<div>
+<h3 class='title title--h4'>Shopify Store Design</h3>
+<p class='case-item__caption'>Freelance online services for the <strong><a href='https://behance.net/imamuddinwp' target='_blank' title='Shopify Store Design of Imam Uddin; imamuddinwp'>Best Shopify Store Design</a></strong>. Outsource your <strong><a href='https://www.shopify.com/' target='_blank' title='Shopify Store Design; imamuddinwp'>Shopify Store Design</a></strong> project and get it quickly done and delivered remotely online.</p>
+</div>
+</div>
+</div>
+<div class='col-12 col-lg-6'>
+<div class='case-item'>
+<img alt='seo-expert-in-bd-imamuddinwp' border='0' class='case-item__icon' data-original-height='42' data-original-width='40' height='42' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_Uqw2N58UBMurInJP-LBYkN-P3zNzgO-odObVC_MxOdg7HCXthtdQB0ODlA-v26_76SpccgkWg6pbc8-KXG7nKjj56rY7ceFuBL9Y0N9F18utfFR8l59qal1g4FWSu7fhzrx5dxFE1uffSTzytLDkrIVqpzjQIU3Mof4QPCIIqB--0rLyIe8ao_MIxg/s1600-rw/woocommerce-wordpress-imamuddinwp.webp' width='40'/>
+<div>
+<h3 class='title title--h4'>WordPress &amp; WooCommerce Solution</h3>
+<p class='case-item__caption'>I have a good knowledge on <b><a href='https://woocommerce.com/posts/introduction-to-wordpress-and-woocommerce/' target='_blank'>WordPress &amp; WooCommerce</a></b> Solution. I have also professional skill on <b><a href='https://elementor.com/pro/' target='_blank'>Elementor Pro</a></b> along with all popular WordPress Page Buider &amp; Plugings. </p>
+</div>
+</div>
+</div>
+<div class='col-12 col-lg-6'>
+<div class='case-item'>
+<img alt='woocommerce-wordpress-imamuddinwp' border='0' class='case-item__icon' data-original-height='42' data-original-width='40' height='40' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4-VaSiLeGQgPsRgCwYgANwN8o_-T9WuW4Son4tu2bjqt8OTq6TVn24PaRZzRMh3FvnjNL6e2f5HXPaZsmdG7mVbUaxsc-EfmiLTOXdJXuFP7aKPtzPK79ZkOoK8A7U5sHH9GKF2dEty2CfTtzTD8olA5YWkpLIvUNRhXpfQTfT-Tk8-ocXqCMuJYjEw/s1600-rw/seo-expert-in-bd-imamuddinwp.webp' width='40'/>
+<div>
+<h3 class='title title--h4'>Search Engine Optimization - SEO</h3>
+<p class='case-item__caption'>I&#39;m very much enthusiastic about <b><a href='https://searchengineland.com/guide/what-is-seo' target='_blank'>SEO - Search Engine Optimization</a></b> especially On-Page SEO, Off-Page SEO, <b><a href='https://backlinko.com/local-seo-guide' target='_blank'>Local SEO</a></b> , <b><a href='https://technicalseo.com/' target='_blank'>Tachnical SEO</a></b> and all types <b><a href='https://neilpatel.com/blog/improve-google-rankings-without-getting-penalized/' target='_blank'>Google Ranking</a></b> related tasks. </p>
+</div>
+</div>
+</div>
+<div class='col-12 col-lg-6'>
+<div class='case-item'>
+<img alt='seo-expert-in-bd-imamuddinwp' border='0' class='case-item__icon' data-original-height='42' data-original-width='40' height='42' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCM4TjrA8YWYCeI1tmcuUT2BALg6d4NZ-RVyDo79tOxfdJkmONQPJSNV0nKkVJjv_mHa-j9OLfASWJ9RQqjDf0s3bBN5NJ9cx3EtbiRNRhFNH2vsUhpRkK-2Tsua-yUkQ9D8wEWt6BvM0Irw1vpIgSsp2U67mvnvD2V3ZErrEx_sGKuTiNqxMmm-q2Vw/s1600-rw/content-writing-blogging-imamuddinwp.webp' width='40'/>
+<div>
+<h3 class='title title--h4'>Content Writing &amp; Blogging</h3>
+<p class='case-item__caption'>For the last 5 years more, I&#39;m working with blogging and <b><a href='https://www.semrush.com/blog/content-writing-how-to-write-and-order-different-types-of-content/' target='_blank'>Content Writing</a></b> on multi-topics especially on tech and <b><a href='https://en.wikipedia.org/wiki/Information_technology/' target='_blank'>IT</a></b> related issues, problems and solutions.</p>
+</div>
+</div>
+</div>
 </div>
   </div>
+  
+  <div class='mt-2'>
+<h2 class='title title--h3'>Testimonials</h2>
+<p>Here I will mention some testimonials from some of my happy clients. Let&#39;s see they say about &#39; <b><a href='/web/20220904062754/https://imamuddinwp.blogspot.com/' target='_blank'>imamuddinwp</a></b> &#39;.</p>
+<div class='swiper-container js-carousel-review swiper-container-initialized swiper-container-horizontal' style='cursor: grab;'>
+<div class='swiper-wrapper' style='transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);'>
+<div class='swiper-slide review-item swiper-slide-active' style='width: 450px; margin-right: 30px;'>
+<svg class='avatar avatar--80' viewBox='0 0 84 84'>
+<g class='avatar__hexagon'>
+<image alt='khalid-farhan-digital-marketer-imamuddinwp' height='100%' width='100%' xlink:href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJcjm7hZtvZJfx9UzTZzD4i0Fd8sEk9Fn_AEV1OINDtss5owksa9X_xcBWfEbt6N8uKyi57y7yOLbK2HYkbmjabs8FRTRiFztFrrBP0sXkxutGy4eV886C2SWXlHbrU5lgH_0mqURvkbOlDrT02TGtZrjsFUtm9x74mD06mCXSYD-_jwQooWKnbU_AVA/s1600-rw/khalid-farhan-digital-marketer-imamuddinwp.webp'/>
+</g>
+</svg>
+<div class='review-item__textbox'>
+<h4 class='title title--h5'><a href='https://khalidfarhan.com/' target='_blank'>Khalid Farhan</a></h4>
+<small>Digital Marketer</small>
+<p class='review-item__caption'>I wanted to first thank you for the amazing work you did with us. This was brilliant and we truly appreciate it. We learned a lot from you and I hope you learned something as well.</p>
+</div>
+</div>
+<div class='swiper-slide review-item swiper-slide-next' style='width: 450px; margin-right: 30px;'>
+<svg class='avatar avatar--80' viewBox='0 0 84 84'>
+<g class='avatar__hexagon'>
+<image alt='Shibu-Kalayil-imamuddinwp' height='100%' width='100%' xlink:href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsE9PR3ZZ5lNzuWrZKNs81ukxKFG8FjsqpULsJ6cdft2ivI01uGCzFt4T3MIgRQSOeJuHHfoegijA8-TjOJp6cwoMHBdCEnd0dwCqzN5c523xAwujEP8eFYJczwXkiaSH7kKobYnQcq39y_daYEsiklmROWdPxjjARK5XSAnHcSVk_LIdFfeIItR6HQ/s1600-rw/Shibu-Kalayil-imamuddinwp.webp'/>
+</g>
+</svg>
+<div class='review-item__textbox'>
+<h4 class='title title--h5'>Shibu Kalayil</h4>
+<small>Shopify Store Owner</small>
+<p class='review-item__caption'>Your knowledge of Shopify is very intellectual. You are really a Shopify Expert.  Keep it up! I have a big plan of Shopify Store. So in future I will knock you again for my Shopify Store Design.</p>
+</div>
+</div>
+<div class='swiper-slide review-item' style='width: 450px; margin-right: 30px;'>
+<svg class='avatar avatar--80' viewBox='0 0 84 84'>
+<g class='avatar__hexagon'>
+<image alt='gias-uddin-ntv-imamuddinwp' height='100%' width='100%' xlink:href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKkoTVeLdAZFWuvMqVuGGnIpS2YmQ-1Tt0R-NkO5KASdJdfeajz6PbUUBUkgtuNywI9JexjgT1mOOdgRhVTOMUq9S4pWxAsYxOiMgEJ6GtxJqee2hjhlNtVSBSE7L-034mHHaNdCoVhFZBq60XfotTtD5drir5BL4cdlndGpVVjZTiFWwwhrehq5Bglg/s1600-rw/gias-uddin-ntv-imamuddinwp.webp'/>
+</g>
+</svg>
+<div class='review-item__textbox'>
+<h4 class='title title--h5'>Gias Uddin</h4>
+<small>Journalist, Editor </small>
+<p class='review-item__caption'>I would like to say &#39;Thank You!&#39; to Imam Uddin, imamuddinwp. He has the part and parcel of my dream &#39; <b><a href='https://www.bbcnuk.com/' target='_blank'>BBCNUK</a></b>&#39;, A UK based bangla news portal.</p>
+</div>
+</div>
+</div>
+<div class='swiper-pagination swiper-pagination-clickable swiper-pagination-bullets'><span aria-label='Go to slide 1' class='swiper-pagination-bullet swiper-pagination-bullet-active' role='button' tabindex='0'/><span aria-label='Go to slide 2' class='swiper-pagination-bullet' role='button' tabindex='0'/><span aria-label='Go to slide 3' class='swiper-pagination-bullet' role='button' tabindex='0'/></div>
+<span aria-atomic='true' aria-live='assertive' class='swiper-notification'/></div>
+</div>
+<div class='mt-4'>
+<h2 class='title title--h3'>Happy Clients</h2>
+<p>Here you will some logo of my happy client&#39;s. Actually these are my freelancing project. I have completed these projects as an SEO Expert &amp; Web Designer.</p>
+<div class='swiper-container js-carousel-clients swiper-container-initialized swiper-container-horizontal' style='cursor: grab;'>
+<div class='swiper-wrapper' style='transform: translate3d(0px, 0px, 0px);'>
+<div class='swiper-slide swiper-slide-active' style='width: 130px; margin-right: 30px;'><a href='https://www.bbcnuk.com/p/about-us.html'><img alt='bangla-barta-bbcnuk-logo' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1uISYYt_AcrFu8pH4w8c-j6NoIP8tS69oNxf0aTA9PW0a9VkomO3HCNziLTxiVq_iRgjz_Fp2brZ-nWLjM_oQmjCmjmO-ne0RbHSj4ia-5WYWJ8LMwNWf_zDxfeCB2Hju4TVRjPL4CyTb1f3eYODx16Xwf63oq5E4LLI_JcbDZksouKABSbimjXVukw/s1600-rw/bangla-barta-bbcnuk-logo.webp' width='100%'/></a></div>
+<div class='swiper-slide swiper-slide-next' style='width: 130px; margin-right: 30px;'><a href='https://freelancing-geek.blogspot.com/'><img alt='freelancing-geek-logo' border='0' data-original-height='90' data-original-width='452' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi29DZ8ssm5RH9X01tfSV4yBUVr-2pR6d4rhCTHuBgaDiL158-9i3PyvoUIoynjtzGaZKt6eOllLr75liByRulxcKyGIyL2eEXmA1JcODUZhw7kaSPIL2GdJl53wWUekVn6KSbjlaGBpTd5H1I4IHqJ8JF7k68ja194ha-iLI7cxPVQc-fQqSjPvuKipw/s1600-rw/freelancing-geek-logo.webp' width='100%'/></a></div>
+<div class='swiper-slide' style='width: 130px; margin-right: 30px;'><a href='https://www.ebanglaweb.com/'><img alt='e-bangla-web-logo' border='0' data-original-height='90' data-original-width='452' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggSxXg38qQocPcDSzB5ipxdb5sSYzDLq0w5fKktGUz_glJt3zoncjTeA2S3HioNMhoB5HnBYEZ2jx3jL1aF4tT7sOazsjLVfAWC9PAVUiGCqug9hnQuUwy8LvDtUGQIc3vzY0IYGwd4vS6Ch3JzFZm7ACmm0zzN296t2AwSA_Pc0oCd3CH7j4II5udYQ/s1600-rw/e-bangla-web-logo.webp' width='100%'/></a></div>
+<div class='swiper-slide' style='width: 130px; margin-right: 30px;'><a href='https://www.alhamdulillahtech.com/'><img alt='alhamdulillah-tech' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2awQqZiQmPlE0rteLqPRjg-AK2TqAZ396iKibgwWW83irIelGrS9J3f_eR7L4BGAoommWenwJbNyouN0v9OPiqa3fKGscO6odzVvCZNVVbIVwpPvT-faiYJqJCR9XYU1h4f2N0MTOYIjB_k5gUX_7IrMRXSfgBaWvwSJLO_SJAZ9EeHsopYfVYj-6JQ/s1600-rw/alhamdulillah-tech.web' width='100%'/></a></div>
+<div class='swiper-slide' style='width: 130px; margin-right: 30px;'><a href='https://imamcu07.blogspot.com/'><img alt='imam-uddin-imamcu07-imamuddinwp' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1_5Oy_TzJ4VNuv0zvknqaStJltLVZuDimBf9HxTsokdZfVpiUPKPgceEB-LYBTx3HfnGQD1GHmCzebz309zG98ODyBiozAPU5TL9IUBHbztEHbHu_kPyV7CBqQnoHD9xLNDdaJLJ_0vimdF7vBv4ybwoAV_4R3J81nEBcuoIO2b7OLjFvrHT89hPNvA/s1600-rw/imam-uddin-imamcu07-imamuddinwp.webp' width='100%'/></a></div>
+<div class='swiper-slide' style='width: 130px; margin-right: 30px;'><a href='https://nextgendigitalbd.blogspot.com/'><img alt='nextgen-digital-imamuddinwp' border='0' data-original-height='90' data-original-width='452' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgM64AmUsZuPaFjT7srZzuzRYEDV8YSFRHaN7H2n9Ec-d0R5B_0dFUEtCL-4Du1PTGDYLPTEK2ccAPTIfWfnlTmlC4OT1L3CD9LI4QwAder6IqiYWDsDv_grUd3Zfx9vhPD9Zq4JUgAn4VDUh4KDefJtuUyNOmqe43Nm2V-WQOqAJAJF_6QENW1K0INw/s1600-rw/nextgen-digital-imamuddinwp.webp' width='100%'/></a></div>
+<div class='swiper-slide' style='width: 130px; margin-right: 30px;'><a href='https://istighfarblog.blogspot.com/'><img alt='istighfar-blog-logo' border='0' data-original-height='90' data-original-width='452' height='100%' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP0esuvgvXTPLtjeMLbZAqbugDpDui4MNiSSXQ5GWmQIf3cK3Q3BcsaxstxwSJihX_7MV0fF5J1kdN9pKvdaQuHen3YCs4MgXYigIA60IqF2pcvmpoaEw0arEEuiFY-pA_h_AD6TnHdNN7uLYjh8LAMmcILFrJ8hp2p3pQZxbNm9ax4irtQWdyIva5VA/s1600-rw/istighfar-blog-logo.webp' width='100%'/></a></div>
+</div>
+<div class='swiper-pagination swiper-pagination-clickable swiper-pagination-bullets'><span aria-label='Go to slide 1' class='swiper-pagination-bullet swiper-pagination-bullet-active' role='button' tabindex='0'/><span aria-label='Go to slide 2' class='swiper-pagination-bullet' role='button' tabindex='0'/><span aria-label='Go to slide 3' class='swiper-pagination-bullet' role='button' tabindex='0'/><span aria-label='Go to slide 4' class='swiper-pagination-bullet' role='button' tabindex='0'/><span aria-label='Go to slide 5' class='swiper-pagination-bullet' role='button' tabindex='0'/></div>
+<span aria-atomic='true' aria-live='assertive' class='swiper-notification'/></div>
+</div>
+     </div>
 </b:if>
 		<b:section class='box box-content' cond='!data:view.isHomepage' id='main'>
 <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
@@ -3024,7 +2976,7 @@ window.addEventListener("load",function(){var e=!1;$(document).on("scroll",funct
 </b:section>
 					
 					<!-- Footer -->
-                  <footer class='footer'>&#169; 2020 vCard <a class='credit' href='https://prtoemplates.org'>ProTemplates</a></footer>
+                  <footer class='footer'>Technical Support - <a href='https://imamuddinwp.blogspot.com' traget='_blank'>imamuddinwp</a></footer>
 		        </div>
 			</div>
 		</div>	
