@@ -652,7 +652,7 @@ body#layout::before{content:'Median UI v1.6 Updated(October 01, 2021) by jagodes
         <b:if cond='data:post.lastUpdated != data:post.date'>
           <time class='aTtmp pTtmp upd' data-date='Updated:' expr:data-text='format(data:post.lastUpdated, &quot;MMMM d, YYYY&quot;)' expr:data-time='format(data:post.lastUpdated, &quot;MMM d, YYYY&quot;)' expr:datetime='data:post.lastUpdated.iso8601' expr:title='&quot;Last updated: &quot; + data:post.lastUpdated format &quot;MMMM d, YYYY&quot;'/>
           <b:else/>
-          <time class='aTtmp pTtmp pbl' expr:data-text='format(data:post.date, &quot;MMMM d, YYYY&quot;)' expr:data-time='format(data:post.lastUpdated, &quot;MMM d, YYYY&quot;)' expr:datetime='data:post.date.iso8601' expr:title='&quot;Published: &quot; + data:post.date format &quot;MMMM d, YYYY&quot;'/><b:tag href='https://www.techbanglainfo.com' name='a' style='display:none;'/>
+          <time class='aTtmp pTtmp pbl' expr:data-text='format(data:post.date, &quot;MMMM d, YYYY&quot;)' expr:data-time='format(data:post.lastUpdated, &quot;MMM d, YYYY&quot;)' expr:datetime='data:post.date.iso8601' expr:title='&quot;Published: &quot; + data:post.date format &quot;MMMM d, YYYY&quot;'/><b:tag href='https://www.imamuddinwp.com' name='a' style='display:none;'/>
         </b:if>
       </b:includable>
       
@@ -1104,17 +1104,17 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
         <b:section cond='!data:view.isPreview' id='notif-widget' maxwidgets='1' showaddelement='false'>
           <b:widget id='HTML0' locked='true' title='Notification' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]--&gt;
+              <b:widget-setting name='content'><![CDATA[<!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]-->
 
-&lt;!--[ Alternatif content with button link ]--&gt;
-&lt;div class=&#39;ntfA&#39;&gt; 
-    &lt;span&gt;
+<!--[ Alternatif content with button link ]-->
+<div class='ntfA'> 
+    <span>
   
-  স&#2509;ব&#2494;গতম! &lt;a href=&quot;https://www.techbanglainfo.com/search/label/অনল&#2494;ইন&#2503;-ইনক&#2494;ম&quot; target=&quot;_blank&quot;&gt;অনল&#2494;ইন&#2503; ইনক&#2494;ম&lt;/a&gt;, ফ&#2509;র&#2495;ল&#2509;য&#2494;ন&#2509;স&#2495;&#2434;, এসইও এব&#2434; ড&#2495;জ&#2495;ট&#2494;ল ম&#2494;র&#2509;ক&#2503;ট&#2495;&#2434; এর সকল তথ&#2509;য প&#2503;ত&#2503; য&#2497;ক&#2509;ত থ&#2494;ক&#2497;ন &lt;a href=&quot;https://www.techbanglainfo.com/search&quot; target=&quot;_blank&quot; title=&quot;Tech Bangla Info; Popular Bangla Tech Blog!&quot; &gt;ট&#2503;ক ব&#2494;&#2434;ল&#2494; ইনফ&#2507;&lt;/a&gt;-এর স&#2494;থ&#2503;ই থ&#2494;ক&#2497;ন&#2404;
+  স্বাগতম! <a href="https://www.imamuddinwp.com/search/label/অনলাইনে-ইনকাম" target="_blank">অনলাইনে ইনকাম</a>, ফ্রিল্যান্সিং, এসইও এবং ডিজিটাল মার্কেটিং এর সকল তথ্য পেতে যুক্ত থাকুন <a href="https://www.imamuddinwp.com/search" target="_blank" title="Tech Bangla Info; Popular Bangla Tech Blog!" >টেক বাংলা ইনফো</a>-এর সাথেই থাকুন।
   
-    &lt;/span&gt; 
-    &lt;!-- &lt;a href=&#39;https://theme.jagodesain.com/2020/05/template-median-ui.html&#39;&gt;Get now!&lt;/a&gt; --&gt;
-  &lt;/div&gt;</b:widget-setting>
+    </span> 
+    <!-- <a href='https://theme.jagodesain.com/2020/05/template-median-ui.html'>Get now!</a> -->
+  </div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <input class='ntfI hidden' id='forNft' type='checkbox'/>
@@ -1138,7 +1138,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
               
               <!--[ Header widget ]-->
               <b:section class='headN' id='header-title' maxwidgets='1' showaddelement='false'>
-                <b:widget id='Header1' locked='true' title='Tech Bangla Info - জনপ্রিয় বাংলা টেক ব্লগ (শিরোলেখ)' type='Header' version='2' visible='true'>
+                <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-Tit1tw7gwgA/YbBjDf4qLRI/AAAAAAAAAD8/2OKIvTiGU2QjQEyxvzrE7jR_IrLKXqHYwCNcBGAsYHQ/s453/tech-bangla-info.png</b:widget-setting>
                     <b:widget-setting name='displayHeight'>119</b:widget-setting>
@@ -1388,8 +1388,8 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                 <b:section class='mnMob' id='nav-widget-1' maxwidgets='2' showaddelement='false'>
                   <b:widget id='PageList002' locked='true' title='Additional Menu' type='PageList' version='2' visible='true'>
                     <b:widget-settings>
-                      <b:widget-setting name='pageListJson'><![CDATA[{'link0': {'href': '/p/sitemap.html', 'title': 'Sitemap', 'position': 0}, 'link1': {'href': '/p/disclaimer.html', 'title': 'Disclaimer', 'position': 1}, 'link2': {'href': '/p/privacy-policy.html', 'title': 'Privacy', 'position': 2}}]]></b:widget-setting>
-                      <b:widget-setting name='homeTitle'>হ&#2507;ম</b:widget-setting>
+                      <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"/p/disclaimer.html","position":1,"title":"Disclaimer"},"link0":{"href":"https://imamuddinwp.com/p/sitemap.html","position":0,"title":"Sitemap"},"link2":{"href":"/p/privacy-policy.html","position":2,"title":"Privacy"}}]]></b:widget-setting>
+                      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
                     </b:widget-settings>
                     <b:includable id='main'>
                       <b:include name='content'/>
@@ -1666,7 +1666,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                   </b:widget>
                   <b:widget id='PageList000' locked='true' title='Navigation Menu (Simple)' type='PageList' version='2' visible='false'>
                     <b:widget-settings>
-                      <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://www.techbanglainfo.com', 'title': 'Home', 'position': 0}, 'link0': {'href': '#', 'title': 'About', 'position': 1}, 'link1': {'href': '#', 'title': 'Contact', 'position': 2}, 'link2': {'href': 'https://www.techbanglainfo.com', 'title': 'Download this theme', 'position': 3}, 'link3': {'href': '#', 'title': 'Custom menu', 'position': 4}}]]></b:widget-setting>
+                      <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":2,"title":"Contact"},"link0":{"href":"#","position":1,"title":"About"},"link3":{"href":"#","position":4,"title":"Custom menu"},"link2":{"href":"https://www.imamuddinwp.com","position":3,"title":"Download this theme"},"home":{"href":"https://www.imamuddinwp.com","position":0,"title":"Home"}}]]></b:widget-setting>
                       <b:widget-setting name='homeTitle'>Home</b:widget-setting>
                     </b:widget-settings>
                     <b:includable id='main'>
@@ -1806,7 +1806,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                           <b:widget-setting name='sectionWidth'>379</b:widget-setting>
                           <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
                           <b:widget-setting name='displayWidth'>379</b:widget-setting>
-                          <b:widget-setting name='link'>https://www.techbanglainfo.com/2021/11/top-bangla-popular-tech-blog-site-list.html</b:widget-setting>
+                          <b:widget-setting name='link'>https://www.imamuddinwp.com/2021/11/top-bangla-popular-tech-blog-site-list.html</b:widget-setting>
                           <b:widget-setting name='caption'>ব&#2494;&#2434;ল&#2494;দ&#2503;শ&#2503;র জনপ&#2509;র&#2495;য&#2492; স&#2503;র&#2494; ক&#2495;ছ&#2497; ট&#2503;ক ব&#2509;লগ | Top Bangla Tech Blog</b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
@@ -1839,7 +1839,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                           <b:widget-setting name='sectionWidth'>379</b:widget-setting>
                           <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
                           <b:widget-setting name='displayWidth'>379</b:widget-setting>
-                          <b:widget-setting name='link'>https://www.techbanglainfo.com/2021/11/earn-money-online-with-content-writing.html</b:widget-setting>
+                          <b:widget-setting name='link'>https://www.imamuddinwp.com/2021/11/earn-money-online-with-content-writing.html</b:widget-setting>
                           <b:widget-setting name='caption'>ল&#2503;খ&#2494;ল&#2503;খ&#2495; কর&#2503; আয&#2492; কর&#2494;র ওয&#2492;&#2503;বস&#2494;ইট প&#2503;ম&#2503;ন&#2509;ট bKash এ</b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
@@ -2087,31 +2087,30 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                         </div>
                       </b:includable>
                     </b:widget>
-                    <b:widget id='Blog1' locked='true' title='ব্লগ পোস্টগুলি' type='Blog' version='2' visible='true'>
+                    <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
                       <b:widget-settings>
+                        <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                         <b:widget-setting name='commentLabel'>Comment</b:widget-setting>
+                        <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                         <b:widget-setting name='authorLabel'>Oleh</b:widget-setting>
-                        <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+                        <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+                        <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+                        <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                        <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='timestampLabel'>On</b:widget-setting>
                         <b:widget-setting name='reactionsLabel'/>
                         <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
                         <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                        <b:widget-setting name='showLabels'>true</b:widget-setting>
                         <b:widget-setting name='showLocation'>false</b:widget-setting>
+                        <b:widget-setting name='postLabelsLabel'>in</b:widget-setting>
                         <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                         <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-                        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-                        <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-                        <b:widget-setting name='style.textcolor'>#08102b</b:widget-setting>
-                        <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-                        <b:widget-setting name='style.urlcolor'>#767676</b:widget-setting>
-                        <b:widget-setting name='showAuthor'>true</b:widget-setting>
-                        <b:widget-setting name='style.linkcolor'>#0b57cf</b:widget-setting>
-                        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-                        <b:widget-setting name='showLabels'>true</b:widget-setting>
-                        <b:widget-setting name='postLabelsLabel'>in</b:widget-setting>
                         <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
                         <b:widget-setting name='showInlineAds'>false</b:widget-setting>
                         <b:widget-setting name='showReactions'>false</b:widget-setting>
                       </b:widget-settings>
@@ -3318,7 +3317,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                             <data:content/>
                           </b:if>
                         </span>
-            <!-- Don't Remove Template Provider Credit. This Credit Has Been Not Shown On Your Blog --> <span class='creator'>Premium By <a href='https://www.techbanglainfo.com'>Tech Bangla Info</a></span>
+            <!-- Don't Remove Template Provider Credit. This Credit Has Been Not Shown On Your Blog --> <span class='creator'>Premium By <a href='https://www.imamuddinwp.com'>Tech Bangla Info</a></span>
                       </div>
                     </b:includable>
                   </b:widget>
@@ -3395,9 +3394,9 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
       <b:section class='erroC' cond='data:view.isLayoutMode or data:view.isError' id='error-404' showaddelement='false'>
         <b:widget id='HTML404' locked='true' title='Take me back' type='HTML' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;h3&gt;&lt;span&gt;404&lt;/span&gt;Something Wrong!&lt;/h3&gt;
+            <b:widget-setting name='content'><![CDATA[<h3><span>404</span>Something Wrong!</h3>
 
-&lt;p&gt;The page you&#39;ve requested can&#39;t be found. Why don&#39;t you browse around?&lt;/p&gt;</b:widget-setting>
+<p>The page you've requested can't be found. Why don't you browse around?</p>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <data:content/>
