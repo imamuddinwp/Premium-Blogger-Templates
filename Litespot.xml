@@ -2837,11 +2837,11 @@ body#layout #hidden-widgets{display:none!important}
             <div class='header-items'>
               <div class='flex-left'>
                 <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Header Logo' showaddelement='no'>
-                  <b:widget id='Header1' locked='true' title='Assets Here (Header)' type='Header' visible='true'>
+                  <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='displayUrl'/>
                       <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                      <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+                      <b:widget-setting name='sectionWidth'>600</b:widget-setting>
                       <b:widget-setting name='useImage'>false</b:widget-setting>
                       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                       <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -2967,8 +2967,7 @@ body#layout #hidden-widgets{display:none!important}
       <b:section class='header-ads container row-x1' id='header-ads' maxwidgets='1' name='Header ADS' showaddelement='yes'>
         <b:widget id='HTML1' locked='false' title='Header Ads' type='HTML' visible='false'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;script async src=&quot;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5330109856539294&quot;
-     crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5330109856539294" crossorigin="anonymous" ></script>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='html-content'/>
@@ -3173,30 +3172,28 @@ body#layout #hidden-widgets{display:none!important}
         <b:section class='main' id='main' maxwidgets='1' name='Main Posts' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
             <b:widget-settings>
+              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
               <b:widget-setting name='commentLabel'>$type={blogger}</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
-              <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='showAuthor'>true</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='timestampLabel'>&#8226;</b:widget-setting>
               <b:widget-setting name='reactionsLabel'/>
               <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+              <b:widget-setting name='showLabels'>true</b:widget-setting>
               <b:widget-setting name='showLocation'>false</b:widget-setting>
+              <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-              <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-              <b:widget-setting name='backlinksLabel'/>
-              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#1a73e8</b:widget-setting>
-              <b:widget-setting name='showAuthor'>true</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#f1f3f4</b:widget-setting>
-              <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-              <b:widget-setting name='showLabels'>true</b:widget-setting>
-              <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
               <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
               <b:widget-setting name='showReactions'>false</b:widget-setting>
             </b:widget-settings>
@@ -3756,7 +3753,7 @@ body#layout #hidden-widgets{display:none!important}
       <aside id='sidebar-wrapper'>
         
         <b:section class='sidebar litespot-pro-widget-ready' id='sidebar' name='Sidebar' showaddelement='yes'>
-          <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
+          <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
               <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -3930,14 +3927,14 @@ body#layout #hidden-widgets{display:none!important}
           </b:widget>
           <b:widget id='LinkList103' locked='true' title='Follow Us' type='LinkList' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='link-3'>https://www.instagram.com/nepali.graphics/</b:widget-setting>
+              <b:widget-setting name='link-3'>https://www.instagram.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='text-1'>twitter</b:widget-setting>
-              <b:widget-setting name='link-1'>https://twitter.com/nepaligraphics/</b:widget-setting>
+              <b:widget-setting name='link-1'>https://twitter.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='text-0'>facebook</b:widget-setting>
-              <b:widget-setting name='link-2'>https://www.youtube.com/channel/UCj_C2bszztKOQZxFVqRqzxA</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.youtube.com/@ImamUddinWp</b:widget-setting>
               <b:widget-setting name='text-3'>instagram</b:widget-setting>
-              <b:widget-setting name='link-0'>https://www.facebook.com/nepaligraphics/</b:widget-setting>
+              <b:widget-setting name='link-0'>https://www.facebook.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='text-2'>youtube</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
@@ -3956,7 +3953,7 @@ body#layout #hidden-widgets{display:none!important}
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text101' locked='true' title='' type='Text' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[Copyright © - <a href="https://www.nepaligraphics.com/" target="_blank" title="https://assetshere.blogspot.com">Assets Here</a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[Copyright © - <a href="https://www.imamuddinwp.com" target="_blank" title="https://www.imamuddinwp.com">Assets Here</a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='text-content'/>
@@ -3966,12 +3963,12 @@ body#layout #hidden-widgets{display:none!important}
         <b:section class='footer-menu' id='footer-menu' maxwidgets='1' name='Footer Menu' showaddelement='yes'>
           <b:widget id='LinkList104' locked='true' title='Link List' type='LinkList' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='link-3'>https://assetshere.blogspot.com/p/sitemap.html</b:widget-setting>
+              <b:widget-setting name='link-3'>https://www.imamuddinwp.com/p/sitemap.html</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='text-1'>About</b:widget-setting>
-              <b:widget-setting name='link-1'>https://assetshere.blogspot.com/p/assets-here.html</b:widget-setting>
+              <b:widget-setting name='link-1'>https://www.imamuddinwp.com/p/assets-here.html</b:widget-setting>
               <b:widget-setting name='text-0'>Home</b:widget-setting>
-              <b:widget-setting name='link-2'>https://assetshere.blogspot.com/p/contact-us.html</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.imamuddinwp.com/p/contact-us.html</b:widget-setting>
               <b:widget-setting name='text-3'>Sitemap</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
               <b:widget-setting name='text-2'>Contact Us</b:widget-setting>
@@ -3994,7 +3991,7 @@ body#layout #hidden-widgets{display:none!important}
           <b:section id='litespot-pro-cookie-ify-section' maxwidgets='1' name='Cookie Consent' showaddelement='no'>
             <b:widget id='Text1' locked='true' title='$ok={Accept !} $days={7}' type='Text' version='2' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[Our website uses cookies to improve your experience. <a href="https://www.nepaligraphics.com/">Learn more</a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[Our website uses cookies to improve your experience. <a href="https://www.imamuddinwp.com/search">Learn more</a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
           <b:include name='text-content'/>
