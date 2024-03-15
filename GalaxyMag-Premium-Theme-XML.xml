@@ -1724,11 +1724,11 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
           <span class='show-mobile-menu'/>
           <div class='main-logo-wrap'>
             <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Main Logo' showaddelement='no'>
-              <b:widget id='Header1' locked='true' title='Demo Blog (Header)' type='Header' version='2' visible='true'>
+              <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' version='2' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='displayUrl'/>
                   <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                  <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+                  <b:widget-setting name='sectionWidth'>600</b:widget-setting>
                   <b:widget-setting name='useImage'>false</b:widget-setting>
                   <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                   <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -1836,32 +1836,30 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:section class='main' id='main' maxwidgets='1' name='Main Posts' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
             <b:widget-settings>
+              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
               <b:widget-setting name='commentLabel'>Post a Comment/Comments</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
-              <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='showAuthor'>true</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='timestampLabel'>-</b:widget-setting>
-              <b:widget-setting name='reactionsLabel'>Post Navi</b:widget-setting>
+              <b:widget-setting name='reactionsLabel'/>
               <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+              <b:widget-setting name='showLabels'>true</b:widget-setting>
               <b:widget-setting name='showLocation'>false</b:widget-setting>
+              <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+              <b:widget-setting name='showBacklinks'>false</b:widget-setting>
               <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='backlinksLabel'>You might like</b:widget-setting>
-              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#1f2024</b:widget-setting>
-              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#656565</b:widget-setting>
-              <b:widget-setting name='showAuthor'>true</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#ff4545</b:widget-setting>
-              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='showLabels'>true</b:widget-setting>
-              <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
-              <b:widget-setting name='showBacklinks'>true</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
-              <b:widget-setting name='showReactions'>true</b:widget-setting>
+              <b:widget-setting name='showReactions'>false</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
               <b:include name='blogPostsHeadline'/>
@@ -1899,6 +1897,34 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 </b:if>
               </b:if>
             </b:includable>
+            <b:includable id='blogThisShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
+            <b:includable id='bylineByName' var='byline'>
+  <b:switch var='data:byline.name'>
+  <b:case value='share'/>
+    <b:include cond='data:post.shareUrl' name='postShareButtons'/>
+  <b:case value='comments'/>
+    <b:include cond='data:post.allowComments' name='postCommentsLink'/>
+  <b:case value='location'/>
+    <b:include cond='data:post.location' name='postLocation'/>
+  <b:case value='timestamp'/>
+    <b:include cond='not data:view.isPage' name='postTimestamp'/>
+  <b:case value='author'/>
+    <b:include name='postAuthor'/>
+  <b:case value='labels'/>
+    <b:include cond='data:post.labels' name='postLabels'/>
+  <b:case value='icons'/>
+    <b:include cond='data:post.emailPostUrl' name='emailPostIcon'/>
+  </b:switch>
+</b:includable>
+            <b:includable id='bylineRegion' var='regionItems'>
+  <b:loop values='data:regionItems' var='byline'>
+    <b:include data='byline' name='bylineByName'/>
+  </b:loop>
+</b:includable>
             <b:includable id='commentAuthorAvatar'>
               <div class='avatar-image-container'>
                 <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
@@ -2035,6 +2061,20 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 </b:if>
               </section>
             </b:includable>
+            <b:includable id='commentsLink'>
+  <a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:if cond='data:post.numberOfComments &gt; 0'>
+      <b:message name='messages.numberOfComments'>
+        <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+      </b:message>
+    <b:else/>
+      <data:messages.postAComment/>
+    </b:if>
+  </a>
+</b:includable>
+            <b:includable id='commentsLinkIframe'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
             <b:includable id='commentsTitle'>
               <!-- Post Commments Title -->
               <b:if cond='data:post.numberOfComments == 0'>
@@ -2049,12 +2089,50 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 </b:if>
               </b:if>
             </b:includable>
+            <b:includable id='defaultAdUnit'>
+  <ins class='adsbygoogle' data-ad-format='auto' expr:data-ad-client='data:adClientId ?: data:blog.adsenseClientId' expr:data-ad-host='data:blog.adsenseHostId' expr:style='data:style ?: &quot;display: block;&quot;'>
+    <b:attr cond='not data:blog.analytics4' expr:value='data:blog.analyticsAccountNumber' name='data-analytics-uacct'/>
+  </ins>
+  <script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</b:includable>
+            <b:includable id='emailPostIcon'>
+  <span class='byline post-icons'>
+    <!-- email post links -->
+    <span class='item-action'>
+      <a expr:href='data:post.emailPostUrl' expr:title='data:messages.emailPost'>
+        <b:include data='{ iconClass: &quot;touch-icon sharing-icon&quot; }' name='emailIcon'/>
+      </a>
+    </span>
+  </span>
+</b:includable>
+            <b:includable id='facebookShare'>
+  <b:with value='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
             <b:includable id='feedLinks'>
               <b:comment>Disabled.</b:comment>
             </b:includable>
             <b:includable id='feedLinksBody' var='links'>
               <b:comment>Disabled.</b:comment>
             </b:includable>
+            <b:includable id='footerBylines'>
+  <b:if cond='data:widgets.Blog.first.footerBylines'>
+    <b:loop index='i' values='data:widgets.Blog.first.footerBylines' var='region'>
+      <b:if cond='not data:region.items.empty'>
+        <div expr:class='&quot;post-footer-line post-footer-line-&quot; + (data:i + 1)'>
+          <b:with value='&quot;footer-&quot; + (data:i + 1)' var='regionName'>
+            <b:include data='region.items' name='bylineRegion'/>
+          </b:with>
+        </div>
+      </b:if>
+    </b:loop>
+  </b:if>
+</b:includable>
+            <b:includable id='googlePlusShare'>
+</b:includable>
             <b:includable id='headerByline' var='post'>
               <!-- Post Header Meta -->
               <div class='entry-meta'>
@@ -2125,9 +2203,29 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 }
               </script>
             </b:includable>
+            <b:includable id='linkShare'>
+  <b:with value='&quot;window.prompt(\&quot;Copy to clipboard: Ctrl+C, Enter\&quot;, \&quot;&quot; + data:originalUrl + &quot;\&quot;); return false;&quot;' var='onclick'>
+    <b:include name='platformShare'/>
+  </b:with>
+</b:includable>
             <b:includable id='nextPageLink'>
               <b:comment>Disabled.</b:comment>
             </b:includable>
+            <b:includable id='otherSharingButton'>
+  <span class='sharing-platform-button sharing-element-other' expr:aria-label='data:messages.shareToOtherApps.escaped' expr:data-url='data:originalUrl' expr:title='data:messages.shareToOtherApps.escaped' role='menuitem' tabindex='-1'>
+    <b:with value='{key: &quot;sharingOther&quot;}' var='platform'>
+      <b:include name='sharingPlatformIcon'/>
+    </b:with>
+    <span class='platform-sharing-text'><data:messages.shareOtherApps.escaped/></span>
+  </span>
+</b:includable>
+            <b:includable id='platformShare'>
+  <a expr:class='&quot;goog-inline-block sharing-&quot; + data:platform.key' expr:data-url='data:originalUrl' expr:href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:onclick='data:onclick ? data:onclick : &quot;&quot;' expr:title='data:platform.shareMessage' target='_blank'>
+    <span class='share-button-link-text'>
+      <data:platform.shareMessage/>
+    </span>
+  </a>
+</b:includable>
             <b:includable id='post' var='post'>
               <!-- Post Index -->
               <b:if cond='data:view.isMultipleItems'>
@@ -2294,6 +2392,12 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 </div>
               </b:if>
             </b:includable>
+            <b:includable id='postLocation'>
+  <span class='byline post-location'>
+    <data:byline.label/>
+    <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+  </span>
+</b:includable>
             <b:includable id='postMeta' var='post'>
               <script type='application/ld+json'>
                 {
@@ -2327,6 +2431,32 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 }
               </script>
             </b:includable>
+            <b:includable id='postMetadataJSONImage'>
+  &quot;image&quot;: {
+    &quot;@type&quot;: &quot;ImageObject&quot;,
+    <b:if cond='data:post.featuredImage.isResizable'>
+    &quot;url&quot;: &quot;<b:eval expr='resizeImage(data:post.featuredImage, 1200, &quot;1200:630&quot;)'/>&quot;,
+    &quot;height&quot;: 630,
+    &quot;width&quot;: 1200
+    <b:else/>
+    &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/w1200/&quot;,
+    &quot;height&quot;: 348,
+    &quot;width&quot;: 1200
+    </b:if>
+  },
+</b:includable>
+            <b:includable id='postMetadataJSONPublisher'>
+ &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;Blogger&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/h60/&quot;,
+      &quot;width&quot;: 206,
+      &quot;height&quot;: 60
+    }
+  },
+</b:includable>
             <b:includable id='postNavigation'>
               <b:if cond='data:view.isPost'>
                 <div class='post-nav'>
@@ -2363,6 +2493,9 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 </b:if>
               </div>
             </b:includable>
+            <b:includable id='postReactions'>
+  <!-- Reaction feature no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
             <b:includable id='postReplyCount' var='post'>
               <!-- Post Reply -->
               <span class='entry-comments-link'><data:post.numberOfComments/></span>
@@ -2470,6 +2603,42 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
               </b:if>
               <b:if cond='data:view.isMultipleItems and data:posts.empty'><div class='queryEmpty'><data:messages.noResultsFound/></div></b:if>
             </b:includable>
+            <b:includable id='sharingButton'>
+  <span expr:aria-label='data:platform.shareMessage' expr:class='&quot;sharing-platform-button sharing-element-&quot; + data:platform.key' expr:data-href='data:shareUrl + &quot;&amp;target=&quot; + data:platform.target' expr:data-url='data:originalUrl' expr:title='data:platform.shareMessage' role='menuitem' tabindex='-1'>
+    <b:include name='sharingPlatformIcon'/>
+    <span class='platform-sharing-text'><data:platform.name/></span>
+  </span>
+</b:includable>
+            <b:includable id='sharingButtonContent'>
+  <div class='flat-icon-button ripple'>
+    <b:include name='shareIcon'/>
+  </div>
+</b:includable>
+            <b:includable id='sharingButtons'>
+  <div class='sharing' expr:aria-owns='&quot;sharing-popup-&quot; + data:sharingId' expr:data-title='data:shareTitle'>
+    <button class='sharing-button touch-icon-button' expr:aria-controls='&quot;sharing-popup-&quot; + data:sharingId' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-button-&quot; + data:sharingId' role='button'>
+      <b:include name='sharingButtonContent'/>
+    </button>
+    <b:include name='sharingButtonsMenu'/>
+  </div>
+</b:includable>
+            <b:includable id='sharingButtonsMenu'>
+  <div class='share-buttons-container'>
+    <ul aria-hidden='true' class='share-buttons hidden' expr:aria-label='data:messages.share.escaped' expr:id='&quot;sharing-popup-&quot; + data:sharingId' role='menu'>
+      <b:loop values='(data:platforms ?: data:blog.sharing.platforms) filter (p =&gt; p.key not in {&quot;blogThis&quot;})' var='platform'>
+        <li>
+          <b:include name='sharingButton'/>
+        </li>
+      </b:loop>
+      <li aria-hidden='true' class='hidden'>
+        <b:include name='otherSharingButton'/>
+      </li>
+    </ul>
+  </div>
+</b:includable>
+            <b:includable id='sharingPlatformIcon'>
+  <b:include data='{ iconClass: (&quot;touch-icon sharing-&quot; + data:platform.key) }' expr:name='data:platform.key + &quot;Icon&quot;'/>
+</b:includable>
             <b:includable id='threadedCommentForm' var='post'>
               <div class='comment-form'>
                 <a name='comment-form'/>
@@ -2650,7 +2819,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text150' locked='true' title='Credits' type='Text' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[Design by - <a href="https://www.templateify.com/" target="_blank">Templateify</a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[Design by - <a href="https://www.imamuddinwp.com" target="_blank">ImAmUdDiN</a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <span class='copyright-text'><data:content/></span>
