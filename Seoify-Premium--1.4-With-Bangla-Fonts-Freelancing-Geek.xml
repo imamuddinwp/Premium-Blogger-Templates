@@ -20,17 +20,14 @@
     <link href='//disqus.com' rel='dns-prefetch'/>
     <b:include name='head-content'/>
     <!-- Google Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Baloo+Da+2:400,500,600,700,800|Play:400,700&amp;display=swap' media='all' rel='stylesheet' type='text/css'/>
+    <link href='//fonts.googleapis.com/css?family=Baloo+Da+2:400,500,600,700,800|Play:400,700' media='all' rel='stylesheet' type='text/css'/>
     <link as='style' href='https://fonts.googleapis.com/earlyaccess/notosansbengali.css' media='all' onload='this.onload=null;this.rel=&apos;stylesheet&apos;' rel='preload'/>
     <noscript><link href='https://fonts.googleapis.com/earlyaccess/notosansbengali.css' media='all' rel='stylesheet'/></noscript>    
     <!-- Font Awesome Free 5.115.4 -->
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' rel='stylesheet'/>
-	<!-- DMCA Protection -->
-	<meta content='aEsrdEJYOGhiMnBxWTVmWGE4cXlMQU5BZExrcVBlcXNPUTd0RG5FcUQ2RT01' name='dmca-site-verification'/> 
 <!-- Template Style CSS -->
 <b:if cond='!data:view.isLayoutMode'>
 <b:skin version='1.0.0'><![CDATA[
-
 /*
 +----------------------------------------------------------+
 -----_-+-------------------------------------------+-_-----
@@ -1017,7 +1014,7 @@ a.ads-here:hover{text-decoration:none;color:$(main.color)}
 <b:template-skin><![CDATA[
 body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}
 body#layout{width:910px;position:relative;background-color:#f9f9f9;padding:95px 5px 0;margin:0}
-body#layout:before{content:'Seoify - v1.4.0 freelancing-geek.blogspot.com';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:22px;color:#1f2024;line-height:95px;text-align:center}
+body#layout:before{content:'Seoify - v1.4.0 â¢  freelancing-geek.blogspot.com';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:22px;color:#1f2024;line-height:95px;text-align:center}
 body#layout div.section{display:block;background-color:#f1f1f1!important;margin:0 5px 10px!important;padding:16px 16px 18px!important;border-color:#e5e5e5}
 body#layout .no-items.section{display:block}
 body#layout .section h4{font-size:14px;color:#1f2024;text-transform:uppercase;margin:0}
@@ -1440,7 +1437,7 @@ body#layout:after{content:'Paid by - imamuddinwp.blogspot.com';display:block;fon
 </b:defaultmarkups>
 <b:if cond='data:widgets.AdSense.first or data:blog.adsenseClientId'>
   <!-- Google AdSense -->
-  <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+
 </b:if>
 <!-- Google Analytics -->
 <b:include data='blog' name='google-analytics'/>
@@ -1524,15 +1521,15 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
             <a class='show-seoify-pro-mobile-menu' href='javascript:;'/>
             <div class='main-logo-wrap'>
               <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Main Logo' showaddelement='no'>
-                <b:widget id='Header1' locked='true' title='Freelancing Geek | Road To Freelancing World! (শিরোলেখ)' type='Header' version='2' visible='true'>
+                <b:widget id='Header1' locked='true' title='Imam Uddin, imamuddinwp (শিরোলেখ)' type='Header' version='2' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-09cQNx3n7fw/XTp1uK7IOnI/AAAAAAAAKmA/KNThXDYEc8YDex49w3VPS-8T-1Ct3JO8wCPcBGAYYCw/s0/freelncing-gek-logo.png</b:widget-setting>
-                    <b:widget-setting name='displayHeight'>45</b:widget-setting>
-                    <b:widget-setting name='sectionWidth'>175</b:widget-setting>
+                    <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-KbcPNefFcVY/YWu-Z_upK7I/AAAAAAAAL9w/byPamB7h5XE755qq_dr9ZNY7hP3kwMxhwCLcBGAsYHQ/s150/imam-uddin-imamuddinwp.png</b:widget-setting>
+                    <b:widget-setting name='displayHeight'>35</b:widget-setting>
+                    <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                     <b:widget-setting name='useImage'>true</b:widget-setting>
                     <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
-                    <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-                    <b:widget-setting name='displayWidth'>175</b:widget-setting>
+                    <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+                    <b:widget-setting name='displayWidth'>150</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main' var='this'>
                     <div class='header-widget'>
@@ -1582,36 +1579,34 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
                     <b:widget-setting name='text-10'>অনল&#2494;ইন&#2503; আয়</b:widget-setting>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                     <b:widget-setting name='link-1'>/</b:widget-setting>
-                    <b:widget-setting name='link-13'>/p/faq-freelancing-geek.html</b:widget-setting>
+                    <b:widget-setting name='link-13'>/p/about-me.html</b:widget-setting>
                     <b:widget-setting name='link-2'>/</b:widget-setting>
-                    <b:widget-setting name='link-12'>/search/label/অনল&#2494;ইন&#2503;-আয়</b:widget-setting>
-                    <b:widget-setting name='link-15'>/p/contact-us-freelancing-geek.html</b:widget-setting>
+                    <b:widget-setting name='link-12'>/search/label/ফ&#2509;র&#2495;ল&#2509;য&#2494;ন&#2509;স</b:widget-setting>
                     <b:widget-setting name='link-0'>/</b:widget-setting>
-                    <b:widget-setting name='link-14'>/p/about.html</b:widget-setting>
-                    <b:widget-setting name='link-11'>/search/label/ম&#2494;র&#2509;ক&#2503;টপ&#2509;ল&#2503;স-এর-ব&#2494;ইর&#2503;-আয়</b:widget-setting>
+                    <b:widget-setting name='link-14'>/p/contact.html</b:widget-setting>
+                    <b:widget-setting name='link-11'>/search/label/আপওয়&#2494;র&#2509;ক</b:widget-setting>
                     <b:widget-setting name='link-10'>/</b:widget-setting>
                     <b:widget-setting name='text-9'>__Social Media Marketing</b:widget-setting>
-                    <b:widget-setting name='link-9'>https://freelancing-geek.blogspot.com/search/label/SMM</b:widget-setting>
+                    <b:widget-setting name='link-9'>/search/label/ecommerce</b:widget-setting>
                     <b:widget-setting name='text-8'>__Shopify</b:widget-setting>
                     <b:widget-setting name='link-7'>/search/label/WordPress</b:widget-setting>
                     <b:widget-setting name='link-8'>/search/label/Shopify</b:widget-setting>
                     <b:widget-setting name='link-5'>/search/label/Freelancing</b:widget-setting>
                     <b:widget-setting name='link-6'>/</b:widget-setting>
-                    <b:widget-setting name='link-3'>/search/label/Digital%20Marketing</b:widget-setting>
-                    <b:widget-setting name='link-4'>/search/label/Technical%20SEO</b:widget-setting>
+                    <b:widget-setting name='link-3'>/search/label/Digital-Marketing</b:widget-setting>
+                    <b:widget-setting name='link-4'>/search/label/SEO</b:widget-setting>
                     <b:widget-setting name='text-1'>Freelancing</b:widget-setting>
                     <b:widget-setting name='text-0'>Home</b:widget-setting>
                     <b:widget-setting name='text-3'>__Digital Marketing</b:widget-setting>
                     <b:widget-setting name='text-2'>_Skill Development</b:widget-setting>
-                    <b:widget-setting name='text-5'>__Freelancing</b:widget-setting>
+                    <b:widget-setting name='text-5'>__Freelance</b:widget-setting>
                     <b:widget-setting name='text-4'>__Technical SEO</b:widget-setting>
                     <b:widget-setting name='text-7'>__WordPress</b:widget-setting>
                     <b:widget-setting name='text-6'>_CMS</b:widget-setting>
-                    <b:widget-setting name='text-15'>Contact Us</b:widget-setting>
                     <b:widget-setting name='text-11'>__ম&#2494;র&#2509;ক&#2503;টপ&#2509;ল&#2503;স এর ব&#2494;ইর&#2503; আয়</b:widget-setting>
                     <b:widget-setting name='text-12'>__অনল&#2494;ইন&#2503; আয়&#2503;র উপ&#2494;য়</b:widget-setting>
-                    <b:widget-setting name='text-13'><![CDATA[FAQ's]]></b:widget-setting>
-                    <b:widget-setting name='text-14'>About Us</b:widget-setting>
+                    <b:widget-setting name='text-13'>About Us</b:widget-setting>
+                    <b:widget-setting name='text-14'>Contact Us</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='content'/>
@@ -1637,30 +1632,15 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
         </div>
       </div>    
     </div>
-	<!-- Facebook Pixel Code -->
-		<script>
-		!function(f,b,e,v,n,t,s)
-		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=&#39;2.0&#39;;
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window, document,&#39;script&#39;,
-		&#39;https://connect.facebook.net/en_US/fbevents.js&#39;);
-		fbq(&#39;init&#39;, &#39;1941408689354124&#39;);
-		fbq(&#39;track&#39;, &#39;PageView&#39;);
-		</script>
-		<noscript><img height='1' src='https://www.facebook.com/tr?id=1941408689354124&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/></noscript>
-	<!-- End Facebook Pixel Code -->
   </header>
   <b:if cond='data:view.isHomepage or data:view.isPost'>
     <!-- Header Ads -->
     <div class='header-ad-wrap multiple'>
       <b:section class='header-ad container row-x1' id='header-ad' maxwidgets='1' name='Header ADS' showaddelement='yes'>
-        <b:widget id='HTML5' locked='false' title='TRENDING' type='HTML' visible='true'>
+        <b:widget id='HTML5' locked='false' title='' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;a class=&quot;ads-here&quot; href=&quot;/&quot;&gt;
-&lt;img alt=&quot;freelancing-geek-logo&quot;  src=&quot;https://blogger.googleusercontent.com/img/a/AVvXsEh9fs5T6s8D-J-raVp5GIx5q1DlF9d9nU6a8huennPb4-C4_MzIJRIo7fUjRwkUu5kyKHXb4WXJRknaxwpxK_Bm1a4QyhGU9opspeDN2WjLJG3RTNoheNMvpy1YewT_LDOjwxq2SPTwNzHKfUN-H2vbEK0m3Or2l49C8uUFgSpmcxBD59FVgIm0KIEq&quot;/&gt;&lt;/a&gt;</b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="/">
+<img alt="imam-uddin-imamuddinwp"  src="https://1.bp.blogspot.com/-KbcPNefFcVY/YWu-Z_upK7I/AAAAAAAAL9w/byPamB7h5XE755qq_dr9ZNY7hP3kwMxhwCLcBGAsYHQ/s0/imam-uddin-imamuddinwp.png"/></a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -1990,7 +1970,6 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
               <b:widget-setting name='commentLabel'>Post a Comment</b:widget-setting>
               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
-              <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='timestampLabel'>-</b:widget-setting>
               <b:widget-setting name='reactionsLabel'/>
@@ -1999,14 +1978,14 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
               <b:widget-setting name='showLocation'>false</b:widget-setting>
               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-              <b:widget-setting name='style.bordercolor'>#4caf50</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='backlinksLabel'/>
               <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#323946</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#5e5e5e</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showAuthor'>true</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#4caf50</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>
               <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
@@ -2821,9 +2800,9 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
             <b:widget-settings>
               <b:widget-setting name='link-7'>https://twitter.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='link-5'>https://pinterest.com/imamuddinwp</b:widget-setting>
-              <b:widget-setting name='link-6'>https://wa.me/+8801815682307?text=Greetings!%20This%20Is%20Imam%20Uddin;%20Welcome%20to%20you%20on%20WhatsApp%20Chat</b:widget-setting>
+              <b:widget-setting name='link-6'>https://wa.me/message/74SQMAMDR65GG1</b:widget-setting>
               <b:widget-setting name='link-3'>https://github.com/imamuddinwp</b:widget-setting>
-              <b:widget-setting name='link-4'>https://medium.com/freelancing-geek</b:widget-setting>
+              <b:widget-setting name='link-4'>https://instagram.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='text-1'>facebook-f</b:widget-setting>
               <b:widget-setting name='text-0'>linkedin</b:widget-setting>
               <b:widget-setting name='text-3'>github</b:widget-setting>
@@ -2833,9 +2812,9 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
               <b:widget-setting name='text-7'>twitter</b:widget-setting>
               <b:widget-setting name='text-6'>whatsapp</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'>https://www.facebook.com/freelancinggeekbd/</b:widget-setting>
-              <b:widget-setting name='link-2'>https://www.youtube.com/channel/UCAvHYHABF-M7W_-6AbeBlUw</b:widget-setting>
-              <b:widget-setting name='link-0'>https://www.linkedin.com/company/freelancing-geek/</b:widget-setting>
+              <b:widget-setting name='link-1'>https://www.facebook.com/imamuddinwp</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.youtube.com/c/ImamUddinimamuddinwp/</b:widget-setting>
+              <b:widget-setting name='link-0'>https://www.linkedin.com/in/imamuddinwp/</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='widget-title'/>
@@ -2853,11 +2832,57 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
           </b:widget>
         </b:section>
         <b:section class='sidebar seoify-pro-widget-ready' id='sidebar' name='Main Sidebar' showaddelement='yes'>
+          <b:widget id='HTML4' locked='false' title='zzzz' type='HTML' visible='false'>
+            <b:widget-settings>
+              <b:widget-setting name='content'><![CDATA[<script>
+    var url = 'https://wati-integration-service.clare.ai/shopifywidget/shopifywidget.js?43370';
+    var s = document.createelement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatbuttonsetting":{
+      "backgroundcolor":"#4dc247",
+      "ctatext":"",
+      "borderradius":"25",
+      "marginleft":"0",
+      "marginbottom":"50",
+      "marginright":"50",
+      "position":"right"
+  },
+  "brandsetting":{
+      "brandname":"bloggingmafia",
+      "brandsubtitle":"typically replies within a day",
+      "brandimg":"https://www.bloggingmafia.com/wp-content/uploads/2020/10/ripon.jpg",
+      "welcometext":"hi, there!\nhow can i help you?",
+      "messagetext":"hello, *mafia* i have a question.%0a%0a{{page_link}}",
+      "backgroundcolor":"#008a73",
+      "ctatext":"start chat",
+      "borderradius":"25",
+      "autoshow":false,
+      "phonenumber":"910011223344"
+  }
+};
+    s.onload = function() {
+        createwhatsappchatwidget(options);
+    };
+    var x = document.getelementsbytagname('script')[0];
+    x.parentnode.insertbefore(s, x);
+</script>]]></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+          </b:widget>
           <b:widget id='FeaturedPost1' locked='false' title='Featured Post' type='FeaturedPost' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='showSnippet'>true</b:widget-setting>
               <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-              <b:widget-setting name='postId'>3941287448410640</b:widget-setting>
+              <b:widget-setting name='postId'>8089783080621979459</b:widget-setting>
               <b:widget-setting name='showFirstImage'>true</b:widget-setting>
               <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
             </b:widget-settings>
@@ -3151,7 +3176,7 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>LIST</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'><![CDATA[CMS,Digital Marketing,E-commerce,Earn Money,Fiverr Tips & Tricks,Freelancing,Make-Money-Online,SEO,Shopify,Skill Development,Technical SEO,অনলাইনে-আয়,এস ই ও,ডিজিটাল মার্কেটিং,মার্কেটপ্লেস-এর-বাইরে-আয়,শপিফাই]]></b:widget-setting>
+              <b:widget-setting name='selectedLabelsList'>Fiverr,New Technology,SEO,Upwork,e-commerce,ecommerce,fiverr rules,freelancing,learning,upwork tips,website hacking,আপওয়&#2494;র&#2509;ক</b:widget-setting>
               <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
               <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
             </b:widget-settings>
@@ -3191,31 +3216,7 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
           </b:widget>
           <b:widget id='HTML1' locked='false' title='Facebook Page' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;center&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
-
-
-&lt;script&gt;(function(d, s, id) {
-
-
-  var js, fjs = d.getElementsByTagName(s)[0];
-
-
-  if (d.getElementById(id)) return;
-
-
-  js = d.createElement(s); js.id = id;
-
-
-  js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5&amp;appId=1760806057479925&quot;;
-
-
-  fjs.parentNode.insertBefore(js, fjs);
-
-
-}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
-
-
-&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/freelancinggeekbd/&quot; data-width=&quot;350&quot; data-height=&quot;230&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;true&quot; data-show-posts=&quot;false&quot;&gt;&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/center&gt;</b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fimamuddinwpbd%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -3226,8 +3227,8 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
           </b:widget>
           <b:widget id='HTML3' locked='false' title='Subscribe Us' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;div class=&quot;youtube-player&quot; data-id=&quot;kpMAz0c5z5U&quot; /&gt;
-&lt;style&gt;
+              <b:widget-setting name='content'><![CDATA[<div class="youtube-player" data-id="SYYxpgluUVk" />
+<style>
 .youtube-player {
   position: relative;
   padding-bottom: 56.25%;
@@ -3281,45 +3282,45 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-   background: url(&quot;https://1.bp.blogspot.com/-9WM7CTGFE6w/YEIY4yiXrSI/AAAAAAAAKLA/KQ9KQqUFQ-omzPDInJqiorJHHIVvrSu2QCNcBGAsYHQ/s16000/play-button.png&quot;) no-repeat;
+   background: url("https://1.bp.blogspot.com/-9WM7CTGFE6w/YEIY4yiXrSI/AAAAAAAAKLA/KQ9KQqUFQ-omzPDInJqiorJHHIVvrSu2QCNcBGAsYHQ/s16000/play-button.png") no-repeat;
   cursor: pointer;
 }
 
-&lt;/style&gt;
-&lt;script type=&#39;text/javascript&#39;&gt;
-//&lt;![CDATA[
+</style>
+<script type='text/javascript'>
+//<![CDATA[
 /* Light YouTube Embeds by @labnol */
 /* Web: https://www.labnol.org/ */
 
 function labnolIframe(div) {
-  var iframe = document.createElement(&quot;iframe&quot;);
+  var iframe = document.createElement("iframe");
   iframe.setAttribute(
-    &quot;src&quot;,
-    &quot;https://www.youtube.com/embed/&quot; + div.dataset.id + &quot;?autoplay=1&amp;rel=0&quot;
+    "src",
+    "https://www.youtube.com/embed/" + div.dataset.id + "?autoplay=1&rel=0"
   );
-  iframe.setAttribute(&quot;frameborder&quot;, &quot;0&quot;);
-  iframe.setAttribute(&quot;allowfullscreen&quot;, &quot;1&quot;);
+  iframe.setAttribute("frameborder", "0");
+  iframe.setAttribute("allowfullscreen", "1");
   iframe.setAttribute(
-    &quot;allow&quot;,
-    &quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot;
+    "allow",
+    "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
   );
   div.parentNode.replaceChild(iframe, div);
 }
 
 function initYouTubeVideos() {
-  var playerElements = document.getElementsByClassName(&quot;youtube-player&quot;);
-  for (var n = 0; n &lt; playerElements.length; n++) {
+  var playerElements = document.getElementsByClassName("youtube-player");
+  for (var n = 0; n < playerElements.length; n++) {
     var videoId = playerElements[n].dataset.id;
-    var div = document.createElement(&quot;div&quot;);
-    div.setAttribute(&quot;data-id&quot;, videoId);
-    var thumbNode = document.createElement(&quot;img&quot;);
-    thumbNode.src = &quot;https://i.ytimg.com/vi/ID/hqdefault.jpg&quot;.replace(
-      &quot;ID&quot;,
+    var div = document.createElement("div");
+    div.setAttribute("data-id", videoId);
+    var thumbNode = document.createElement("img");
+    thumbNode.src = "https://i.ytimg.com/vi/ID/hqdefault.jpg".replace(
+      "ID",
       videoId
     );
     div.appendChild(thumbNode);
-    var playButton = document.createElement(&quot;div&quot;);
-    playButton.setAttribute(&quot;class&quot;, &quot;play&quot;);
+    var playButton = document.createElement("div");
+    playButton.setAttribute("class", "play");
     div.appendChild(playButton);
     div.onclick = function () {
       labnolIframe(this);
@@ -3328,10 +3329,10 @@ function initYouTubeVideos() {
   }
 }
 
-document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
+document.addEventListener("DOMContentLoaded", initYouTubeVideos);
 
-//]]&gt;
-&lt;/script&gt;&lt;/div&gt;</b:widget-setting>
+//]]]]><![CDATA[>
+</script></div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -3648,7 +3649,7 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>CLOUD</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'>Bitcoin,CMS,Digital Marketing,Earn Money,Make-Money-Online,Marketplace,Motivation,Shopify,Social Media Marketing,Technical SEO,ড&#2495;জ&#2495;ট&#2494;ল ম&#2494;র&#2509;ক&#2503;ট&#2495;&#2434;</b:widget-setting>
+              <b:widget-setting name='selectedLabelsList'>Fiverr,SEO,Upwork,blog tips,e-commerce,fiverr rules,freelancer story,আপওয়&#2494;র&#2509;ক,ফ&#2509;র&#2495;ল&#2509;য&#2494;ন&#2509;স</b:widget-setting>
               <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
               <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
             </b:widget-settings>
@@ -3697,17 +3698,6 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
               </div>
             </b:includable>
           </b:widget>
-          <b:widget id='HTML4' locked='false' title='DMCA Protection' type='HTML' visible='true'>
-            <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a href="//www.dmca.com/Protection/Status.aspx?ID=234225f5-e158-4016-b566-b3a4f50c9a6a" target="_blank" title="Check Freelancing Geek Protection Status" class="dmca-badge"> <img src ="//www.dmca.com/Badges/DMCA_logo-std-btn225w.png" alt="DMCA.com for Freelancing Geek" /></a> <script src="//images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>]]></b:widget-setting>
-            </b:widget-settings>
-            <b:includable id='main'>
-  <b:include name='widget-title'/>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-          </b:widget>
         </b:section>
         <b:section class='sidebar seoify-pro-widget-ready' cond='data:view.isPost' id='sidebar-ads' maxwidgets='1' name='Sidebar ADS' showaddelement='yes'/>
       </aside>
@@ -3722,13 +3712,13 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
         <b:section class='about-section' id='about-section' maxwidgets='2' name='About Section' showaddelement='yes'>
           <b:widget id='Image150' locked='true' title='About Us' type='Image' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-1zdLM9aXPxA/YKoYJX8PXqI/AAAAAAAAAOc/NXZBL8igwOo-s3wETlfMr-JO8liRM9DvQCPcBGAYYCw/s150/freelancing-geek.png</b:widget-setting>
-              <b:widget-setting name='displayHeight'>45</b:widget-setting>
+              <b:widget-setting name='displayUrl'>https://3.bp.blogspot.com/-GYAj2jSM8WE/W6ouOwQnCMI/AAAAAAAAJZE/Bpb2ORXtUFopIiZHJAXw6IeB9SctaJ2fwCK4BGAYYCw/s150/seo-expert-in-bd.png</b:widget-setting>
+              <b:widget-setting name='displayHeight'>30</b:widget-setting>
               <b:widget-setting name='sectionWidth'>150</b:widget-setting>
               <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
               <b:widget-setting name='displayWidth'>150</b:widget-setting>
               <b:widget-setting name='link'>/</b:widget-setting>
-              <b:widget-setting name='caption'><![CDATA[ধন্যবাদ আপনাকে '<b><a href="https://freelancing-geek.blogspot.com/" target="_blank" title="Freelancing Geek">Freelancing Geek</a></b>' এ আসার জন্য। '<b><a href="https://medium.com/freelancing-geek" target="_blank" title="Freelancing Geek; Medium Profile">ফ্রিল্যান্সিং গিক</a></b>' মুলতঃ একটি অনলাইন পোর্টাল; ফ্রিল্যান্সিং সংক্রান্ত যে কোন বিষয় সহ  <a href="https://freelancing-geek.blogspot.com/2021/05/what-is-digital-marketing-types-and-demand-of-digital-marketing.html" target="_blank">ডিজিটাল মার্কেটিং</a>, <b>ওয়েব ডিজাইন</b>,<b> ওয়েব ডেভেলপমেন্ট</b>, <b>এস ই ও</b>, <b>স্যোসাল মিডিয়া মার্কেটিং</b>, <b>ই-কমার্স </b> সহ সকল ধরণের আপডেট পেতে আমাদের সাথেই থাকুন।]]></b:widget-setting>
+              <b:widget-setting name='caption'><![CDATA[ধন্যবাদ আপনাকে '<b><a href="https://imamuddinwp.com" target="_blank" title="Imam Uddin, imamuddinwp">Imam Uddin;imamuddinwp</a></b>' তে আসার জন্য। এটি মুলতঃ একটি অনলাইন পোর্টাল; ফ্রিল্যান্সিং সংক্রান্ত যে কোন বিষয় সহ  <a href="https://freelancing-geek.blogspot.com/2021/05/what-is-digital-marketing-types-and-demand-of-digital-marketing.html" target="_blank">ডিজিটাল মার্কেটিং</a>, <b>ওয়েব ডিজাইন</b>,<b> ওয়েব ডেভেলপমেন্ট</b>, <b>এস ই ও</b>, <b>স্যোসাল মিডিয়া মার্কেটিং</b>, <b>ই-কমার্স </b> সহ সকল ধরণের আপডেট পেতে আমার সাথেই থাকুন।]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
               <b:include name='content'/>
@@ -3744,10 +3734,10 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
               </div>
             </b:includable>
           </b:widget>
-          <b:widget id='LinkList158' locked='true' title='Follow Us' type='LinkList' version='2' visible='true'>
+          <b:widget id='LinkList158' locked='true' title='Follow Me' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='link-5'>https://wa.me/+8801815682307?text=Greetings!%20This%20Is%20Imam%20Uddin;%20Welcome%20to%20you%20on%20WhatsApp%20Chat</b:widget-setting>
-              <b:widget-setting name='link-3'>https://medium.com/freelancing-geek</b:widget-setting>
+              <b:widget-setting name='link-3'>https://instagram.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='link-4'>https://github.com/imamuddinwp</b:widget-setting>
               <b:widget-setting name='text-1'>facebook-f</b:widget-setting>
               <b:widget-setting name='text-0'>linkedin</b:widget-setting>
@@ -3756,9 +3746,9 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
               <b:widget-setting name='text-5'>whatsapp</b:widget-setting>
               <b:widget-setting name='text-4'>github</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'>https://www.facebook.com/freelancinggeekbd/</b:widget-setting>
-              <b:widget-setting name='link-2'>https://www.youtube.com/channel/UCAvHYHABF-M7W_-6AbeBlUw</b:widget-setting>
-              <b:widget-setting name='link-0'>https://www.linkedin.com/company/freelancing-geek/</b:widget-setting>
+              <b:widget-setting name='link-1'>https://www.facebook.com/imamuddinwp</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.youtube.com/@imamuddinwp</b:widget-setting>
+              <b:widget-setting name='link-0'>https://www.linkedin.com/in/imamuddinwp/</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <b:include name='content'/>
@@ -3781,8 +3771,8 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text150' locked='true' title='Credits' type='Text' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;p&gt;2018 - &lt;span id=&quot;cdate&quot;&gt;&lt;/span&gt;&lt;script&gt;document.getElementById(&quot;cdate&quot;).innerHTML = (new Date().getFullYear());&lt;/script&gt; &amp;#169; 
-	&lt;a href=&#39;https://nextgendigitalbd.blogspot.com/&#39; target=&#39;_blank&#39; title=&#39;NextGen Digital; Digital Solution For The NextGen Generation.&#39;&gt;NextGen Digital&lt;/a&gt; - &lt;i class=&#39;fas fa-heart-broken&#39;/&gt; &lt;a href=&#39;https://imamuddinwp.blogspot.com/&#39; target=&#39;_blank&#39; title=&#39;Imam Uddin; A Passionate SEO Expert And Shopify Expert!&#39;&gt;ImAm Uddin&lt;/a&gt;&lt;/i&gt;&lt;/p&gt;</b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<p>2014 - <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> &#169; 
+	<a href='https://imamuddinwp.com/'>Imam Uddin</a> - <i class='fas fa-heart-broken'/> <a href='https://imamuddinwp.com' target='_blank' title='Imam Uddin; A Passionate SEO Expert And Shopify Expert!'>ImAm Uddin</a></i></p>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <span class='copyright-text'><data:content/></span>
@@ -3792,14 +3782,12 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
         <b:section class='footer-menu' id='footer-menu' maxwidgets='1' name='Footer Menu' showaddelement='yes'>
           <b:widget id='LinkList159' locked='true' title='Link List' type='LinkList' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='link-3'>/p/disclaimer-freelancing-geek.html</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='text-1'>Sitemap</b:widget-setting>
-              <b:widget-setting name='link-1'>/p/sitemap.html</b:widget-setting>
-              <b:widget-setting name='text-0'><![CDATA[FAQ's]]></b:widget-setting>
-              <b:widget-setting name='link-2'>/p/privacy-policy-freelancing-geek.html</b:widget-setting>
-              <b:widget-setting name='text-3'>Disclaimer</b:widget-setting>
-              <b:widget-setting name='link-0'>/p/faq-freelancing-geek.html</b:widget-setting>
+              <b:widget-setting name='text-1'>Contact</b:widget-setting>
+              <b:widget-setting name='link-1'>https://imamcu07.blogspot.com/p/contact.html</b:widget-setting>
+              <b:widget-setting name='text-0'>Who Am I?</b:widget-setting>
+              <b:widget-setting name='link-2'>https://imamcu07.blogspot.com/p/privacy-policy.html</b:widget-setting>
+              <b:widget-setting name='link-0'>https://imamcu07.blogspot.com/p/about-me.html</b:widget-setting>
               <b:widget-setting name='text-2'>Privacy Policy</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
