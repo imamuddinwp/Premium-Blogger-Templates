@@ -9,11 +9,12 @@
   
 <!--
 
-    Name       : Fletro Pro
-    Version    : 6.1(Update)
-    Date       : January 25, 2024
-    Shared By  : https://imamuddinwp.blogspot.com
-    Disclaimer : For learning purposes only. Not for sale / commercial use.
+    Name      : Fletro Pro
+    Version   : 6.3
+    Date      : March 28, 2023
+    Type      : Premium
+    Website   : www.imamuddinwp.com
+
     ============================================================================
     NOTE :
     This theme is premium (paid).
@@ -26,7 +27,6 @@
   <!--[ <head> Open ]-->
   &lt;head&gt;
 
-  
   <b:if cond='data:view.isMultipleItems'>
     <b:if cond='data:view.isHomepage'>
       <!--[ Homepage title ]-->
@@ -153,10 +153,7 @@
   
   <b:if cond='data:view.isLayoutMode'>
     <!--[ CSS Layout ]-->
-    <b:template-skin><![CDATA[ body#layout::before{content:'Fletro Pro v6.1 Updated(October 25, 2021) by jagodesain.com';position:absolute;top:15px;right:15px;font-size:.8rem;font-family:Roboto, sans-serif;color:rgba(0,0,0,0.52)} body#layout{width:100%;margin:0 !important;padding:60px 0 0 !important;border:0 !important;text-align:left !important;position:relative} body#layout div.layout-widget-description{font-size:12px !important;line-height:1.6em} body#layout div.layout-title{font-size:15px !important} body#layout div.section{border-radius:2px} body#layout .section h4{font-size:15px !important;margin-left:0!important} body#layout .add_widget a{font-size:13px !important} body#layout .Blog .widget-content{height:auto!important} body#layout #anchor-ad, body#layout #notif-widget .widget-content, body#layout #side-sticky, body#layout #HTML91 .widget-content, body#layout #HTML92 .widget-content, body#layout #HTML93 .widget-content, body#layout #HTML01 .widget-content, body#layout #HTML02 .widget-content, body#layout #HTML94 .widget-content{background:#f0f8ff !important} body#layout .mainIn{padding-bottom:30px} body#layout .headIn, body#layout .blogM, body#layout .fotIn{display:flex} body#layout .headL{width:30%} body#layout .headR, body#layout .headM{width:35%} body#layout .mainbar{width:55%} body#layout .sidebar{width:45%} body#layout header, body#layout .mainIn, body#layout footer, body#layout .erroP{border-top:1px solid #e5e5e5;padding:30px 0 30px;position:relative} body#layout header::before, body#layout .mainIn::before, body#layout footer::before, body#layout .erroP::before{content:'Header';position:absolute;top:-14px;left:20px;padding:5px 20px;border:1px solid #e5e5e5;border-radius:20px;font-size:.8rem;font-family:Roboto,sans-serif;color:rgba(0,0,0,0.52);background:#f1f1f1} body#layout #notif-widget{padding:0!important; margin-bottom:30px!important} body#layout #notif-widget .widget{margin-top:0!important} body#layout #notif-widget h4, body#layout #notif-widget .layout-widget-description{display:none !important} body#layout .mainIn, body#layout .erroP{margin-top:40px;padding-bottom:0} body#layout .mainIn::before{content:'Main Content'} body#layout footer::before{content:'Footer'} body#layout .erroP::before{content:'Custom Error Page'}
-body#layout footer #footer-widget-1,body#layout footer #footer-widget-2,body#layout footer #footer-widget-3,body#layout footer #footer-widget-4{width:20%} 
-
-]]></b:template-skin>
+    <b:template-skin><![CDATA[ body#layout::before{content:'Fletro Pro v6.3 Updated(March 28, 2023) Distributed By tech4era.com';position:absolute;top:15px;right:15px;font-size:.8rem;font-family:Roboto, sans-serif;color:rgba(0,0,0,0.52)} body#layout{width:1025px;margin:0 !important;padding:60px 0 0 !important;border:0 !important;text-align:left !important;position:relative} body#layout div.layout-widget-description{font-size:12px !important;line-height:1.6em} body#layout div.layout-title{font-size:15px !important} body#layout div.section{border-radius:2px} body#layout .section h4{font-size:15px !important;margin-left:0!important} body#layout .add_widget a{font-size:13px !important} body#layout .Blog .widget-content{height:auto!important} body#layout #anchor-ad, body#layout #notif-widget .widget-content, body#layout #side-sticky, body#layout #HTML91 .widget-content, body#layout #HTML92 .widget-content, body#layout #HTML93 .widget-content, body#layout #HTML01 .widget-content, body#layout #HTML02 .widget-content, body#layout #HTML94 .widget-content{background:#f0f8ff !important} body#layout .mainIn{padding-bottom:30px} body#layout .headIn, body#layout .blogM, body#layout .fotIn{display:flex} body#layout .headL{width:30%} body#layout .headR, body#layout .headM{width:35%} body#layout .mainbar{width:55%} body#layout .sidebar{width:45%} body#layout header, body#layout .mainIn, body#layout footer, body#layout .erroP{border-top:1px solid #e5e5e5;padding:30px 0 30px;position:relative} body#layout header::before, body#layout .mainIn::before, body#layout footer::before, body#layout .erroP::before{content:'Header';position:absolute;top:-14px;left:20px;padding:5px 20px;border:1px solid #e5e5e5;border-radius:20px;font-size:.8rem;font-family:Roboto,sans-serif;color:rgba(0,0,0,0.52);background:#f1f1f1} body#layout #notif-widget{padding:0!important; margin-bottom:30px!important} body#layout #notif-widget .widget{margin-top:0!important} body#layout #notif-widget h4, body#layout #notif-widget .layout-widget-description{display:none !important} body#layout .mainIn, body#layout .erroP{margin-top:40px;padding-bottom:0} body#layout .mainIn::before{content:'Main Content'} body#layout footer::before{content:'Footer'} body#layout .erroP::before{content:'Custom Error Page'} ]]></b:template-skin>
   </b:if>
 
   <!--[ CSS stylesheet ]-->
@@ -426,49 +423,6 @@ body#layout footer #footer-widget-1,body#layout footer #footer-widget-2,body#lay
 
 /* Error Page */ .erroP{display:flex;align-items:center;justify-content:center;height:100vh;text-align:center;padding:0} .erroC{width:calc(100% - 40px);max-width:450px;margin:auto;font-family:var(--fontBa)} .erroC h3{font-size:1.414rem;font-family:inherit} .erroC h3 span{display:block;font-size:140px;line-height:.8;margin-bottom:-1rem;color:#ebebf0} .erroC p{margin:30px 5%;line-height:1.6em;opacity:.7} .erroC .button{margin:0;padding-left:2em;padding-right:2em;font-size:14px}
 
-/* Article ToC */
-.post .tocInner,.post .spoiler{border:1px solid #fefefe;border-left:0;border-right:0;padding:15px 15px;margin:30px 0;font-size:14px}
-.post .tocTitle,.post .spoilerTitle{outline:0;font-weight:700;line-height:1.8em;display:flex;align-items:center}
-.post .tocTitle:after{content:'Hide all';font-weight:400;font-size:85%;font-family:sans-serif;margin-left:auto}
-.post .tocContent,.post .spoilerContent{max-height:1000vh;transition:all .4s ease;overflow:hidden}
-.post .tocInput:checked ~ .tocContent{max-height:0}
-.post .tocInput:checked ~ .tocTitle:after{content:'Show all'}
-.post .tocInner a{display:flex;color:inherit}
-.post .tocInner ol,.post .tocInner ul,.tableOfContent ol{padding:0;list-style:none;font-size:inherit;font-weight:400;counter-reset:toc-count;line-height:1.75em}
-.post .tocInner li,.tableOfContent li{display:flex;flex-wrap:wrap}
-.post .tocInner li ol,.post .tocInner li ul,.tableOfContent li ol{width:100%;padding-left:26px;margin-bottom:10px;margin-top:5px}
-.post .tocInner li > *:before,.tableOfContent li > a:before{content:counters(toc-count,'.')'. ';counter-increment:toc-count;display:inline-block;min-width:20px;margin-right:5px;flex-shrink:0;font-weight:400}
-.postToc{position:fixed;background-color:#f7faff;top:0;right:-355px;bottom:0;left:0;width:355px;margin-left:auto;transition:all .4s ease;display:flex;align-items:center;justify-content:flex-end;z-index:2}
-.tableOfContainer{width:100%;height:100%;transition:all .1s ease;display:flex;position:relative;z-index:3}
-.tableOfHeader{display:flex;align-items:center;justify-content:space-between;padding:15px 20px 15px 30px;background-color:#f7faff;font-size:15px;font-weight:400;position:absolute;top:70px;right:0;left:0;z-index:1;transition:all .4s ease}
-.tableOfHeader svg{width:20px;height:20px}
-.tableOfHeader span:before{content:attr(data-text)}
-.tableOfIcon{width:55px;height:40px;display:flex;align-items:center;justify-content:center;background-color:#fefefe;border-radius:.3em 0 0 .3em;border:1px solid #fefefe;border-right:0;box-shadow:0 10px 20px 0 rgb(30 30 30 / 8%);position:absolute;top:10px;left:-55px}
-.tableOfIcon:before{content:'';display:block;width:12px;height:12px;background-color:#204ecf;border:2px solid #fefefe;border-radius:50%;position:absolute;top:8px;left:15px;webkit-animation:indicator 1s ease infinite;-moz-animation:indicator 1s ease infinite;animation:indicator 1s ease infinite}
-.tableOfInner{margin-top:70px;padding:50px 25px 50px 30px;width:100%;overflow-y:auto}
-.tableOfContent a{line-height:1.8em;margin-bottom:4px;color:inherit;display:flex}
-.tableOfContent ol{margin:0}
-.tableOfContent li > a:before{opacity:.7}
-.tocMenu:checked ~ .postToc{right:0}
-.tocMenu:checked ~ .postToc .tableOfIcon{opacity:0;visibility:hidden}
-.fullClose{display:block;position:fixed;top:0;left:0;right:0;bottom:0;z-index:2;-webkit-transition:all .1s ease;transition:all .1s ease;background:transparent;opacity:0;visibility:hidden}
-.drK .tableOfContainer,.drK .tableOfHeader{background-color:#1e1e1e}
-.drK .tableOfIcon{background-color:#2d2d30;border-color:transparent}
-.drK .tableOfIcon:before{border-color:#2d2d30}
-.drK .tocInner .tocTitle:after{color:#989b9f}
-.drK .tableOfContent a, .drK .post .tocInner a{color:#fefefe}
-@media screen and (max-width:896px){.postToc{right:0;width:75%;max-width:480px;margin-right:-480px}
-.tableOfContainer{border-radius:15px 0 0 15px}
-.tableOfHeader,.tableOfIcon{top:40px}
-.tableOfInner{margin-top:40px}
-.tocMenu:checked ~ .postToc{z-index:10;margin-right:0}
-.tocMenu:checked ~ .postToc .fullClose{background:rgba(0,0,0,.25);opacity:1;visibility:visible}
-.drK .tableOfContainer,.drK .tableOfHeader{background-color:#252526}
-}
-@media screen and (max-width:480px){.postToc{margin-right:-75%}
-.tableOfHeader,.tableOfInner{padding-left:20px;padding-right:20px}
-}
-
 /* Responsive */
 @media screen and (min-width:897px){/* Header */ .headL .headN{width:100%} .headL, .headR{z-index:1} .headM .HTML + .PageList, .headL .headIc{display:none} .headM{display:flex;align-items:center;justify-content:center;max-width:calc(100% - 350px);height:100%;position:absolute;left:0;right:0;margin:0 auto} /* mainIn */ .mainIn, .blogM{display:flex} .blogCont{padding-top:30px;padding-bottom:30px} .mainbar{flex:1 0 calc(100% - var(--sideW) - 50px);width:calc(100% - var(--sideW) - 50px); transition:var(--trans-2)} .sidebar{display:flex;flex:0 0 calc(var(--sideW) + 50px);width:calc(var(--sideW) + 50px); margin:0} .sidebar::before{content:'';flex:0 0 50px} .sidebar .sideIn{width:calc(100% - 50px)} /* mainNav */ .mnH{display:none} .mnMob, .mnMn svg:not(.d){display:none} .mnMn{display:block;position:relative;width:calc(100% + 25px);left:-12.5px;right:-12.5px} .mnMn >li{display:inline-flex; align-items:center;margin:0 12.5px;position:relative;white-space:nowrap;height:var(--headerH)} .mnMn >li:hover ul{max-height:100vh; opacity:1;visibility:visible} .mnMn >li:last-child ul{left:auto;border-radius:16px 5px 16px 16px} .mnMn ul{display:block; position:absolute;top:calc(var(--headerH) - 15px);left:-15px;right:-15px; min-width:180px; max-height:0vh; background:var(--contentB); box-shadow:0 10px 20px -10px rgba(0,0,0,.1); border-radius:5px 16px 16px 16px; transition:var(--trans-1); opacity:0;visibility:hidden;z-index:1; overflow:hidden} .mnMn ul li >*{display:block;padding:10px 15px} .mnMn ul li >*:hover{background:var(--transB)} .mnMn .a{display:inline-flex;align-items:center} .mnMn .a:hover{color:var(--linkC)} .mnMn .a:hover::after{opacity:1} .mnMn .a::after{content:'';border-bottom:1px solid var(--linkC);position:absolute;bottom:-1px;left:0;right:0;opacity:0} .mnMn .drp .n::after{content:'';padding:0 3px;flex:0 0}}
 @media screen and (min-width:768px){::-webkit-scrollbar{-webkit-appearance:none;width:4px;height:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:rgba(0,0,0,.15);border-radius:10px}::-webkit-scrollbar-thumb:hover{background:rgba(0,0,0,.35)}::-webkit-scrollbar-thumb:active{background:rgba(0,0,0,.35)}}
@@ -615,7 +569,6 @@ body#layout footer #footer-widget-1,body#layout footer #footer-widget-2,body#lay
               }
             </script>
           <script>/*<![CDATA[*/ /*! Related Posts by Taufik Nurrohman dte.web.id */ var randomRelatedIndex,showRelatedPost;(function(n,m,k){var d={widgetTitle:"<h3 class='title'>Related Posts</h3>",widgetStyle:1,homePage:"http://www.jagodesain.com",numPosts:7,summaryLength:320,titleLength:"auto",thumbnailSize:200,noImage:"data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=",containerId:"related-posts",newTabLink:false,moreText:"Read more",callBack:function(){}}; for(var f in relatedPostConfig){d[f]=(relatedPostConfig[f]=="undefined")?d[f]:relatedPostConfig[f]}var j=function(a){var b=m.createElement("script");b.async="async";b.rel="preload";b.src=a;k.appendChild(b)},o=function(b,a){return Math.floor(Math.random()*(a-b+1))+b},l=function(a){var p=a.length,c,b;if(p===0){return false}while(--p){c=Math.floor(Math.random()*(p+1));b=a[p];a[p]=a[c];a[c]=b}return a},e=(typeof labelArray=="object"&&labelArray.length>0)?"/-/"+l(labelArray)[0]:"",h=function(b){var c=b.feed.openSearch$totalResults.$t-d.numPosts,a=o(1,(c>0?c:1));j(d.homePage.replace(/\/$/,"")+"/feeds/posts/summary"+e+"?alt=json-in-script&orderby=updated&start-index="+a+"&max-results="+d.numPosts+"&callback=showRelatedPost")},g=function(z){var s=document.getElementById(d.containerId),x=l(z.feed.entry),A=d.widgetStyle,c=d.widgetTitle+'<ul class="s-'+A+' scrlH">',b=d.newTabLink?' target="_blank"':"",y=d.moreText,v,t,w,r,u;if(!s){return}for(var q=0;q<d.numPosts;q++){if(q==x.length){break}t=x[q].title.$t;w=(d.titleLength!=="auto"&&d.titleLength<t.length)?t.substring(0,d.titleLength)+"&hellip;":t; r=("media$thumbnail"in x[q]&&d.thumbnailSize!==false)?x[q].media$thumbnail.url.replace(/.*?:\/\//g , "//").replace(/\/s[0-9]+(\-c)?/, "/s"+d.thumbnailSize).replace(/\=s[0-9]+(\-c)?/, "=s"+d.thumbnailSize):d.noImage; month=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];date=x[q].published.$t.substring(0,10); Y=date.substring(0, 4); m=date.substring(5, 7); D=date.substring(9, 10); M=month[parseInt(m-1)]; u=("summary"in x[q]&&d.summaryLength>0)?x[q].summary.$t.replace(/<br ?\/?>/g," ").replace(/<.*?>/g,"").replace(/[<>]/g,"").substring(0,d.summaryLength)+"&hellip;":"";for(var p=0,a=x[q].link.length;p<a;p++){v=(x[q].link[p].rel=="alternate")?x[q].link[p].href:"#"} if(A==2){c+='<li><div class="i"><div class="pThmb"><a class="thmb" aria-label="'+w+'" href="'+v+'" title="'+t+'"><div class="lazy" data-style="background-image: url('+r+')"></div></a></div><div class="iTtl aTtl"><a href="'+v+'" '+b+'>'+w+'</a></div></div></li>'} else{if(A==3){c+='<li><div class="i"><div class="pThmb"><a class="thmb" aria-label="'+w+'" href="'+v+'" title="'+t+'"><div class="lazy" data-style="background-image: url('+r+')"></div></a></div><div class="iTtl aTtl"><a href="'+v+'" '+b+' data-date="'+M+' '+D+', '+Y+'" data-text="'+y+'">'+w+'</a></div></div></li>'} else{if(A==4){c+='<li><div class="i"><div class="pThmb"><a class="thmb" aria-label="'+w+'" href="'+v+'" title="'+t+'"><div class="lazy" data-style="background-image: url('+r+')"></div></a></div><div class="iTtl aTtl"><a href="'+v+'" '+b+'>'+w+'</a></div><div class="pSnpt">'+u+'</div><div class="pInf pSml" data-date="'+M+' '+D+', '+Y+'"></div></div></li>'} else{c+='<li><div class="iF"><div class="pThmb"><a class="thmb" aria-label="'+w+'" href="'+v+'" title="'+t+'"><div class="lazy" data-style="background-image: url('+r+')"></div></a></div><div class="pCtnt"><div class="pInr"><div class="iTtl aTtl"><a href="'+v+'" '+b+'>'+w+'</a></div><div class="pSnpt">'+u+'</div><div class="pInf pSml" data-date="'+M+' '+D+', '+Y+'"></div></div></div></div></li>'} }}}s.innerHTML=c+="</ul>";d.callBack()};randomRelatedIndex=h;showRelatedPost=g;j(d.homePage.replace(/\/$/,"")+"/feeds/posts/summary"+e+"?alt=json-in-script&orderby=updated&max-results=0&callback=randomRelatedIndex")})(window,document,document.getElementsByTagName("head")[0]); /*]]>*/</script>
-          
         </div>
       </b:includable>
       
@@ -851,24 +804,6 @@ body#layout footer #footer-widget-1,body#layout footer #footer-widget-2,body#lay
               <data:messages.postAComment/>
             </b:if>
           </label>
-        </div>
-      </b:includable>
-      
-      <b:includable id='postTableofContent'>
-        <input class='tocMenu hidden' id='offtoc-menu' type='checkbox'/>
-        <div class='postToc'>
-          <div class='tableOfContainer'>
-            <label class='tableOfHeader' for='offtoc-menu'>
-              <span class='tableOfIcon'><b:include name='document-icon'/></span>
-              <span data-text='Table of contents'/>
-              <b:include name='forward-icon'/>
-            </label>
-            <div class='tableOfInner'>
-              <div class='tableOfContent' id='tocContent'/>
-            </div>
-            <script>/*<![CDATA[*/ document.addEventListener('DOMContentLoaded', () => new TableOfContents({from: document.querySelector('#postBody'), to: document.querySelector('#tocContent')}).generateToc() ); /*]]>*/</script>
-          </div>
-          <label class='fullClose' for='offtoc-menu'/>
         </div>
       </b:includable>
       
@@ -1299,17 +1234,17 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
         <b:section cond='!data:view.isPreview' id='notif-widget' maxwidgets='1' showaddelement='false'>
           <b:widget id='HTML0' locked='true' title='Notification' type='HTML' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]--&gt;
+              <b:widget-setting name='content'><![CDATA[<!--[ Your content here, Lorem ipsum dolor sit amet, consectetur adipiscing elit. ]-->
 
-&lt;!--[ Alternatif content with button link ]--&gt;
-&lt;div class=&#39;ntfA&#39;&gt; 
-  &lt;span&gt;
+<!--[ Alternatif content with button link ]-->
+<div class='ntfA'> 
+  <span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&gt;Test link&lt;/a&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='#'>Test link</a>
 
-  &lt;/span&gt; 
-  &lt;!-- &lt;a href=&#39;https://www.techyjeeshan.xyz&#39;&gt;Get now!&lt;/a&gt; --&gt;
-&lt;/div&gt;</b:widget-setting>
+  </span> 
+  <!-- <a href='https://www.techyjeeshan.xyz'>Get now!</a> -->
+</div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <input class='ntfI hidden' id='forNft' type='checkbox'/>
@@ -1334,7 +1269,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               
                 <!--[ Header widget ]-->
                 <b:section class='headN' id='header-title' maxwidgets='1' showaddelement='false'>
-                  <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' version='2' visible='true'>
+                  <b:widget id='Header1' locked='true' title='Testing Blog (Header)' type='Header' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='displayUrl'/>
                       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -1590,7 +1525,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                         
                             <!--[ Standar menu ]-->
                             <li>
-                              <a class='a' href='#' itemprop='url'>
+                              <a class='a' href='https://www.techyjeeshan.xyz' itemprop='url'>
                                 <!--[ Icon ]-->
                                 <b:include name='download-alt-icon'/>
                             
@@ -1602,9 +1537,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           </ul>
                         </b:includable>
                       </b:widget>
-                      <b:widget id='PageList000' locked='true' title='Navigation Menu (Simple)' type='PageList' version='2' visible='false'>
+                      <b:widget id='PageList000' locked='true' title='Navigation Menu (Simple)' type='PageList' version='2' visible='true'>
                         <b:widget-settings>
-                          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":1,"title":"About"},"link0":{"href":"/","position":0,"title":"Home"},"link3":{"href":"#","position":3,"title":"Custom menu"},"link2":{"href":"#","position":2,"title":"Contact"}}]]></b:widget-setting>
+                          <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"#","position":1,"title":"About"},"link0":{"href":"https://jago-dummy-01.blogspot.com/","position":0,"title":"Home"},"link4":{"href":"#","position":4,"title":"Custom menu"},"link3":{"href":"https://www.tech4era.com/","position":3,"title":"Download this theme"},"link2":{"href":"#","position":2,"title":"Contact"}}]]></b:widget-setting>
                           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
@@ -1710,7 +1645,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                     <b:widget id='TextList000' locked='true' title='Header Icon' type='TextList' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='shownum'>3</b:widget-setting>
-                        <b:widget-setting name='item-3'>Mode</b:widget-setting>
+                        <b:widget-setting name='item-4'>Mode</b:widget-setting>
+                        <b:widget-setting name='item-3'>Profile</b:widget-setting>
                         <b:widget-setting name='sorting'>NONE</b:widget-setting>
                         <b:widget-setting name='item-2'>Profile</b:widget-setting>
                         <b:widget-setting name='item-1'>Search</b:widget-setting>
@@ -1854,8 +1790,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
         <!--[ Scroll menu ]-->
         <nav class='navI scrlH'>
           <b:section class='secIn' id='scroll-menu' maxwidgets='1' showaddelement='false'>
-            <b:widget id='LinkList001' locked='true' title='Scroll Menu' type='LinkList' version='2' visible='false'>
+            <b:widget id='LinkList001' locked='true' title='Scroll Menu' type='LinkList' version='2' visible='true'>
               <b:widget-settings>
+                <b:widget-setting name='text-10'>Topics 10</b:widget-setting>
+                <b:widget-setting name='shownum'>7</b:widget-setting>
+                <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                <b:widget-setting name='link-1'>#</b:widget-setting>
+                <b:widget-setting name='link-13'>/p/privacy-policy.html</b:widget-setting>
+                <b:widget-setting name='link-2'>#</b:widget-setting>
+                <b:widget-setting name='link-12'>/p/dmca.html</b:widget-setting>
+                <b:widget-setting name='link-0'>https://jago-dummy-01.blogspot.com/search/label/Adventure</b:widget-setting>
+                <b:widget-setting name='link-14'>/p/terms-and-conditions.html</b:widget-setting>
+                <b:widget-setting name='link-11'>#</b:widget-setting>
+                <b:widget-setting name='link-10'>#</b:widget-setting>
                 <b:widget-setting name='text-9'>Topics 10</b:widget-setting>
                 <b:widget-setting name='link-9'>#</b:widget-setting>
                 <b:widget-setting name='text-8'>Topics 09</b:widget-setting>
@@ -1873,11 +1820,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                 <b:widget-setting name='text-4'>Topics 05</b:widget-setting>
                 <b:widget-setting name='text-7'>Topics 08</b:widget-setting>
                 <b:widget-setting name='text-6'>Topics 07</b:widget-setting>
-                <b:widget-setting name='shownum'>7</b:widget-setting>
-                <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                <b:widget-setting name='link-1'>#</b:widget-setting>
-                <b:widget-setting name='link-2'>#</b:widget-setting>
-                <b:widget-setting name='link-0'>https://</b:widget-setting>
+                <b:widget-setting name='text-11'>Topics 10</b:widget-setting>
+                <b:widget-setting name='text-12'>DMCA</b:widget-setting>
+                <b:widget-setting name='text-13'>Privacy Policy</b:widget-setting>
+                <b:widget-setting name='text-14'>Terms and Conditions</b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
                 <b:include name='content'/>
@@ -1912,7 +1858,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                 <!--[ Ad content ]-->
                 <b:tag class='blogAd' name='div'>
                   <b:section id='horizontal-ad' maxwidgets='3' showaddelement='true'>
-                    <b:widget id='HTML91' locked='true' title='Under header ad' type='HTML' version='2' visible='false'>
+                    <b:widget id='HTML91' locked='true' title='Under header ad' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='content'/>
                       </b:widget-settings>
@@ -1936,11 +1882,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                     
                   <b:if cond='data:view.isHomepage'>
                     <b:section aria-label='Gallery' class='sldO scrlH' id='slider-widget' maxwidgets='4' showaddelement='false'>
-                      <b:widget id='Image1' locked='true' title='Slider Image 01' type='Image' version='2' visible='false'>
+                      <b:widget id='Image1' locked='true' title='Slider Image 01' type='Image' version='2' visible='true'>
                         <b:widget-settings>
                           <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-yMSpgmjn390/YF1Q5CvGIcI/AAAAAAAAQlg/59LxYemhlyEbbhqlpdfypu5OXRav4t-JgCNcBGAsYHQ/s1600/slider-1-min.png</b:widget-setting>
                           <b:widget-setting name='displayHeight'>648</b:widget-setting>
-                          <b:widget-setting name='sectionWidth'>885</b:widget-setting>
+                          <b:widget-setting name='sectionWidth'>351</b:widget-setting>
                           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                           <b:widget-setting name='displayWidth'>1600</b:widget-setting>
                           <b:widget-setting name='link'/>
@@ -1969,11 +1915,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           <div class='sldS'/>
                         </b:includable>
                       </b:widget>
-                      <b:widget id='Image2' locked='true' title='Slider Image 02' type='Image' version='2' visible='false'>
+                      <b:widget id='Image2' locked='true' title='Slider Image 02' type='Image' version='2' visible='true'>
                         <b:widget-settings>
-                          <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-dGxoQ9YQYsM/YF1Q71CYmII/AAAAAAAAQlo/0scDqH__JA87HT6QpRcFZt9Y7CucundjQCNcBGAsYHQ/s1600/slider-2-min.png</b:widget-setting>
+                          <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-dGxoQ9YQYsM/YF1Q71CYmII/AAAAAAAAQlo/0scDqH__JA87HT6QpRcFZt9Y7CucundjQCNcBGAsYHQ/s0/slider-2-min.png</b:widget-setting>
                           <b:widget-setting name='displayHeight'>648</b:widget-setting>
-                          <b:widget-setting name='sectionWidth'>885</b:widget-setting>
+                          <b:widget-setting name='sectionWidth'>351</b:widget-setting>
                           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                           <b:widget-setting name='displayWidth'>1600</b:widget-setting>
                           <b:widget-setting name='link'/>
@@ -2002,11 +1948,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           <div class='sldS'/>
                         </b:includable>
                       </b:widget>
-                      <b:widget id='Image3' locked='true' title='Slider Image 03' type='Image' version='2' visible='false'>
+                      <b:widget id='Image3' locked='true' title='Slider Image 03' type='Image' version='2' visible='true'>
                         <b:widget-settings>
-                          <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-vK7BQxXeYnk/YF1Q9MVgZ8I/AAAAAAAAQls/OanP_Tl4sd4616Y1RaD2JPA_UOWtMkDAQCNcBGAsYHQ/s1600/slider-3-min.png</b:widget-setting>
+                          <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-vK7BQxXeYnk/YF1Q9MVgZ8I/AAAAAAAAQls/OanP_Tl4sd4616Y1RaD2JPA_UOWtMkDAQCNcBGAsYHQ/s0/slider-3-min.png</b:widget-setting>
                           <b:widget-setting name='displayHeight'>648</b:widget-setting>
-                          <b:widget-setting name='sectionWidth'>885</b:widget-setting>
+                          <b:widget-setting name='sectionWidth'>351</b:widget-setting>
                           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                           <b:widget-setting name='displayWidth'>1600</b:widget-setting>
                           <b:widget-setting name='link'/>
@@ -2035,11 +1981,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           <div class='sldS'/>
                         </b:includable>
                       </b:widget>
-                      <b:widget id='Image4' locked='true' title='Slider Image 04' type='Image' version='2' visible='false'>
+                      <b:widget id='Image4' locked='true' title='Slider Image 04' type='Image' version='2' visible='true'>
                         <b:widget-settings>
-                          <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-Q_BGkGuukLE/YF1Q67reH4I/AAAAAAAAQlk/jXe6LIyIjkkNpJu7ShtztoUWV4JylmCkgCNcBGAsYHQ/s1600/slider-4-min.png</b:widget-setting>
+                          <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-Q_BGkGuukLE/YF1Q67reH4I/AAAAAAAAQlk/jXe6LIyIjkkNpJu7ShtztoUWV4JylmCkgCNcBGAsYHQ/s0/slider-4-min.png</b:widget-setting>
                           <b:widget-setting name='displayHeight'>648</b:widget-setting>
-                          <b:widget-setting name='sectionWidth'>885</b:widget-setting>
+                          <b:widget-setting name='sectionWidth'>351</b:widget-setting>
                           <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                           <b:widget-setting name='displayWidth'>1600</b:widget-setting>
                           <b:widget-setting name='link'/>
@@ -2072,7 +2018,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   </b:if>
                     
                   <b:section cond='data:view.isHomepage' id='top-widget' showaddelement='true'>
-                    <b:widget cond='!data:view.isPreview' id='HTML92' locked='true' title='Ad placement' type='HTML' version='2' visible='false'>
+                    <b:widget cond='!data:view.isPreview' id='HTML92' locked='true' title='Ad placement' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='content'/>
                       </b:widget-settings>
@@ -2205,7 +2151,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   </b:section>
                 
                   <b:section id='main-widget' showaddelement='true'>
-                    <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest and (data:view.isHomepage or data:view.isPost)' id='HTML93' locked='true' title='Ad placement' type='HTML' version='2' visible='false'>
+                    <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest and (data:view.isHomepage or data:view.isPost)' id='HTML93' locked='true' title='Ad placement' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='content'/>
                       </b:widget-settings>
@@ -2572,10 +2518,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                         
                         <!--[ Show ad. ]-->
                         <b:include cond='data:post.includeAd' data='post' name='inlineAd'/>
-                        
-                        <!--[ Post table of content ]-->
-                      <b:include cond='data:view.isPost and !data:view.isPreview and data:post.labels none (label =&gt; label.name in [&quot;Product&quot; , &quot;Label_1&quot;])' data='post' name='postTableofContent'/>
-                        
                       </b:includable>
                       <b:includable id='postCommentsLink'/>
                       <b:includable id='postFooter' var='post'/>
@@ -2673,7 +2615,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                                     
                                   <div data-text='WhatsApp'>
                                     <!-- Share to Whatsapp -->
-                                    <a aria-label='Whatsapp' href='https://www.relevanto.info/p/contact-us.html' target='_blank'>
+                                    <a aria-label='Whatsapp' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'>
                                       <b:include name='whatsapp-r-icon'/>
                                     </a>
                                   </div>
@@ -2708,7 +2650,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                                     
                                   <div data-text='Line'>
                                     <!-- Share to Line -->
-                                    <a aria-label='Line' href='https://www.qspothub.com/p/about-us.html' target='_blank'>
+                                    <a aria-label='Line' expr:href='&quot;https://timeline.line.me/social-plugin/share?url=&quot; + data:blog.url.canonical' rel='noopener' target='_blank'>
                                       <b:include name='line-r-icon'/>
                                     </a>
                                   </div>
@@ -2961,7 +2903,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                                 
                                     <!--[ Timeago script ]-->
                                     <b:if cond='data:blog.languageDirection != &quot;rtl&quot; and data:view.url != data:view.url params { amp: &quot;1&quot; }'>
-                          <script>/*<![CDATA[*/ (function timeAgo(selector) { var templates = {prefix: "", suffix: "", seconds: "second ago", minute: "1 min", minutes: "%d min", hour: "1 hour", hours: "%d hour", day: "1 day", days: "%d days", month: "1 month", months: "%d month", year: "1 year", years: "%d years"}; var template = function(t, n) { return templates[t] && templates[t].replace(/%d/i, Math.abs(Math.round(n))); }; var timer = function(time) { if (!time) return; time = time.replace(/\.\d+/, ""); time = time.replace(/-/, "/").replace(/-/, "/"); time = time.replace(/T/, " ").replace(/Z/, " UTC"); time = time.replace(/([\+\-]\d\d)\:?(\d\d)/, " $1$2"); time = new Date(time * 1000 || time); var now = new Date(); var seconds = ((now.getTime() - time) * .001) >> 0; var minutes = seconds / 60; var hours = minutes / 60; var days = hours / 24; var years = days / 365; return templates.prefix + ( seconds < 45 && template('seconds', seconds) || seconds < 90 && template('minute', 1) || minutes < 45 && template('minutes', minutes) || minutes < 90 && template('hour', 1) || hours < 24 && template('hours', hours) || hours < 42 && template('day', 1) || days < 30 && template('days', days) || days < 45 && template('month', 1) || days < 365 && template('months', days / 30) || years < 1.5 && template('year', 1) || template('years', years) ) + templates.suffix; }; var elements = document.getElementsByClassName('dtTm'); for (var i in elements) { var $this = elements[i]; if (typeof $this === 'object') { $this.innerHTML = timer($this.getAttribute('title') || $this.getAttribute('data-datetime')); } } setTimeout(timeAgo, 60000); })(); /*]]>*/</script>
+                                      <script>/*<![CDATA[*/ (function timeAgo(selector) { var templates = {prefix: "", suffix: "", seconds: "second ago", minute: "1 min", minutes: "%d min", hour: "1 hour", hours: "%d hour", day: "1 day", days: "%d days", month: "1 month", months: "%d month", year: "1 year", years: "%d years"}; var template = function(t, n) { return templates[t] && templates[t].replace(/%d/i, Math.abs(Math.round(n))); }; var timer = function(time) { if (!time) return; time = time.replace(/\.\d+/, ""); time = time.replace(/-/, "/").replace(/-/, "/"); time = time.replace(/T/, " ").replace(/Z/, " UTC"); time = time.replace(/([\+\-]\d\d)\:?(\d\d)/, " $1$2"); time = new Date(time * 1000 || time); var now = new Date(); var seconds = ((now.getTime() - time) * .001) >> 0; var minutes = seconds / 60; var hours = minutes / 60; var days = hours / 24; var years = days / 365; return templates.prefix + ( seconds < 45 && template('seconds', seconds) || seconds < 90 && template('minute', 1) || minutes < 45 && template('minutes', minutes) || minutes < 90 && template('hour', 1) || hours < 24 && template('hours', hours) || hours < 42 && template('day', 1) || days < 30 && template('days', days) || days < 45 && template('month', 1) || days < 365 && template('months', days / 30) || years < 1.5 && template('year', 1) || template('years', years) ) + templates.suffix; }; var elements = document.getElementsByClassName('dtTm'); for (var i in elements) { var $this = elements[i]; if (typeof $this === 'object') { $this.innerHTML = timer($this.getAttribute('title') || $this.getAttribute('data-datetime')); } } setTimeout(timeAgo, 60000); })(); /*]]>*/</script>
                                     </b:if>
                                   </div>
                       
@@ -3027,7 +2969,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                         </b:if>
                       </b:includable>
                     </b:widget>
-                    <b:widget cond='data:view.isPost and !data:view.isPreview and data:view.url != data:view.url params { amp: &quot;1&quot; }' id='HTML01' locked='true' title='Middle post ad 01' type='HTML' version='2' visible='false'>
+                    <b:widget cond='data:view.isPost and !data:view.isPreview and data:view.url != data:view.url params { amp: &quot;1&quot; }' id='HTML01' locked='true' title='Middle post ad 01' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='content'/>
                       </b:widget-settings>
@@ -3046,7 +2988,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                         </div>
                       </b:includable>
                     </b:widget>
-                    <b:widget cond='data:view.isPost and !data:view.isPreview and data:view.url != data:view.url params { amp: &quot;1&quot; }' id='HTML02' locked='true' title='Middle post ad 02' type='HTML' version='2' visible='false'>
+                    <b:widget cond='data:view.isPost and !data:view.isPreview and data:view.url != data:view.url params { amp: &quot;1&quot; }' id='HTML02' locked='true' title='Middle post ad 02' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='content'/>
                       </b:widget-settings>
@@ -3068,7 +3010,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   </b:section>
                 
                   <b:section cond='!data:view.isPreview and !data:view.isSingleItem' id='add-widget' showaddelement='true'>
-                    <b:widget cond='!data:view.isPreview' id='HTML94' locked='true' title='Ad placement' type='HTML' version='2' visible='false'>
+                    <b:widget cond='!data:view.isPreview' id='HTML94' locked='true' title='Ad placement' type='HTML' version='2' visible='true'>
                       <b:widget-settings>
                         <b:widget-setting name='content'/>
                       </b:widget-settings>
@@ -3092,7 +3034,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   <b:tag class='blogItm sidebar' name='aside'>
                     <b:tag class='sideIn' name='div'>
                       <b:section id='side-widget' showaddelement='true'>
-                        <b:widget cond='data:view.isHomepage' id='Profile1' locked='false' title='About Me...' type='Profile' version='2' visible='true'>
+                        <b:widget cond='data:view.isHomepage' id='Profile1' locked='false' title='Contributors' type='Profile' version='2' visible='true'>
                           <b:widget-settings>
                             <b:widget-setting name='showaboutme'>true</b:widget-setting>
                             <b:widget-setting name='showlocation'>true</b:widget-setting>
@@ -3227,24 +3169,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           </b:includable>
                           <b:includable id='viewProfileLink'/>
                         </b:widget>
-                        <b:widget cond='data:view.isHomepage or data:view.isPost' id='PopularPosts00' locked='false' title='Popular post' type='PopularPosts' version='2' visible='true'>
+                        <b:widget id='PopularPosts00' locked='false' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
                           <b:widget-settings>
                             <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
                             <b:widget-setting name='showThumbnails'>true</b:widget-setting>
                             <b:widget-setting name='showSnippets'>true</b:widget-setting>
-                            <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+                            <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
                           </b:widget-settings>
                           <b:includable id='main' var='this'>
-                  <b:if cond='data:title != &quot;&quot;'>
-                    <h2 class='title'><data:title/></h2>
-                  </b:if>
-                  <div class='widget-content'>
-                    <b:include name='snippetedPosts'/>
-                  </div>
-                </b:includable>
+                            <b:if cond='data:title != &quot;&quot;'>
+                              <h2 class='title'><data:title/></h2>
+                            </b:if>
+                            <b:include name='snippetedPosts'/>
+                          </b:includable>
                           <b:includable id='blogThisShare'/>
                           <b:includable id='bylineByName' var='byline'/>
-                          <b:includable id='bylineRegion' var='regionItems'/>
+                          <b:includable id='bylineRegion' var='regionIts'/>
                           <b:includable id='commentsLink'/>
                           <b:includable id='commentsLinkIframe'/>
                           <b:includable id='emailPostIcon'/>
@@ -3258,8 +3198,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           <b:includable id='postAuthor'/>
                           <b:includable id='postCommentsLink'/>
                           <b:includable id='postInfo'>
-                  <div class='iInf pSml'>
-                    <b:if cond='data:post.labels any (label =&gt; label.name in [ &quot;Sponsored&quot; ])'>
+                            <div class='iInf pSml'>
+                              <b:if cond='data:post.labels any (label =&gt; label.name in [ &quot;Sponsored&quot; ])'>
                                 <b:include name='postLabelSponsored'/>
                                 <b:else/>
                                 
@@ -3267,16 +3207,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                                 <b:include cond='data:widgets.Blog.first.allBylineItems.timestamp' name='postTimestamp'/>
                                 <b:include cond='data:post.labels' name='postLabel'/>
                               </b:if>
-                  </div>
-                </b:includable>
+                            </div>
+                          </b:includable>
                           <b:includable id='postJumpLink' var='post'/>
                           <b:includable id='postLabels'/>
                           <b:includable id='postLocation'/>
                           <b:includable id='postReactions'/>
                           <b:includable id='postShareButtons'/>
                           <b:includable id='postTimestamp'>
-                  <time class='aTtmp iTtmp pbl' expr:data-text='format(data:post.date, &quot;MMM d, y&quot;)' expr:datetime='data:post.date.iso8601' expr:title='&quot;Published: &quot; + data:post.date format &quot;MMMM d, y&quot;'/>
-                </b:includable>
+                            <time class='aTtmp iTtmp pbl' expr:data-text='format(data:post.date, &quot;MMM d&quot;)' expr:datetime='data:post.date.iso8601' expr:title='&quot;Published: &quot; + data:post.date format &quot;MMMM d, y&quot;'/>
+                          </b:includable>
                           <b:includable id='sharingButton'/>
                           <b:includable id='sharingButtonContent'/>
                           <b:includable id='sharingButtons'/>
@@ -3285,7 +3225,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                           <b:includable id='snippetedPostByline'/>
                           <b:includable id='snippetedPostContent'>
                             <!--[ Post thumbnail ]-->
-                  <b:include cond='data:i == 0 and (data:this.postDisplay.showFeaturedImage and data:post.featuredImage)' name='snippetedPostThumbnail'/>
+                            <b:include cond='data:i == 0 and (data:this.postDisplay.showFeaturedImage and data:post.featuredImage)' name='snippetedPostThumbnail'/>
                       
                             <b:include name='postInfo'/>
                               
@@ -3315,36 +3255,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                               </b:tag>
                               
                               <!--[ Comments count ]-->
-                          <b:tag class='iFxd' cond='data:post.allowComments and data:post.numberOfComments &gt; 0 or data:post.labels any (label =&gt; label.name in [ &quot;Sponsored&quot; ])' name='div'>
-                            <b:if cond='data:post.labels any (label =&gt; label.name in [ &quot;Sponsored&quot; ])'>
-                              <b:include name='postSponsored'/>
-                            </b:if>
-                            <b:if cond='data:widgets.Blog.first.allBylineItems.comments'>
-                              <b:include name='postCommentsLinks'/>
-                            </b:if>
-                          </b:tag>
-                              
+                              <b:tag class='iFxd' cond='data:post.allowComments and data:post.numberOfComments &gt; 0 or data:post.labels any (label =&gt; label.name in [ &quot;Sponsored&quot; ])' name='div'>
+                                    <b:include name='feedLinks'/>
+                                <b:if cond='data:post.labels any (label =&gt; label.name in [ &quot;Sponsored&quot; ])'>
+                                  <b:include name='postSponsored'/>
+                                </b:if>
+                                <b:if cond='data:widgets.Blog.first.allBylineItems.comments'>
+                                  <b:include name='postCommentsLinks'/>
+                                </b:if>
+                              </b:tag>
                             </div>
                           </b:includable>
                           <b:includable id='snippetedPostTitle'>
                             <h3 class='iTtl aTtl'><a expr:href='data:post.url.canonical'><data:post.title.escaped/></a></h3>
                           </b:includable>
                           <b:includable id='snippetedPosts'>
-                  <div class='itemPp' role='feed'>
-                    <!-- Don't render the post that we're currently already looking at. -->
-                    <b:loop index='i' values='data:posts filter (p =&gt; p.id != data:view.postId)' var='post'>
-                      <article class='itm'>
-                        <b:class cond='data:i == 0 and data:this.postDisplay.showFeaturedImage and !data:post.featuredImage' name='nThmb'/>
+                            <div class='itemPp' role='feed'>
+                              <!-- Don't render the post that we're currently already looking at. -->
+                              <b:loop index='i' values='data:posts filter (p =&gt; p.id != data:view.postId)' var='post'>
+                                <article class='itm'>
+                                  <b:class cond='data:i == 0 and data:this.postDisplay.showFeaturedImage and !data:post.featuredImage' name='nThmb'/>
                                   <b:class cond='data:i == 0 and data:this.postDisplay.showFeaturedImage and data:post.featuredImage' name='mostP'/>
                                   <b:include name='snippetedPostContent'/>
-                      </article>
-                    </b:loop>
-                  </div>
-                </b:includable>
+                                </article>
+                              </b:loop>
+                            </div>
+                          </b:includable>
                         </b:widget>
-                        <b:widget id='Label00' locked='false' title='Category...' type='Label' version='2' visible='true'>
+                        <b:widget id='Label00' locked='false' title='Labels' type='Label' version='2' visible='true'>
                           <b:widget-settings>
-                            <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
+                            <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                             <b:widget-setting name='display'>LIST</b:widget-setting>
                             <b:widget-setting name='selectedLabelsList'/>
                             <b:widget-setting name='showType'>ALL</b:widget-setting>
@@ -3466,7 +3406,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               
                       <!--[ Sidebar sticky ]-->
                       <b:section class='sideSticky' cond='!data:view.isPreview' id='side-sticky' showaddelement='true'>
-                        <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest' id='HTML95' locked='true' title='Sticky ad placement(desktop only)' type='HTML' version='2' visible='false'>
+                        <b:widget cond='!data:view.isPreview and !data:blog.isMobileRequest' id='HTML95' locked='true' title='Sticky ad placement(desktop only)' type='HTML' version='2' visible='true'>
                           <b:widget-settings>
                             <b:widget-setting name='content'/>
                           </b:widget-settings>
@@ -3496,15 +3436,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               <b:section id='footer-widget-1' maxwidgets='2' showaddelement='true'>
                 <b:widget id='HTML77' locked='false' title='Made with coffee by' type='HTML' version='2' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='content'>&lt;div class=&#39;abtT&#39;&gt;
-  &lt;h2 class=&#39;tl&#39;&gt;Fletro Pro v6.1&lt;/h2&gt;
+                    <b:widget-setting name='content'><![CDATA[<div class='abtT'>
+  <h2 class='tl'>Jago Desain</h2>
 
-  &lt;!--[ Delete comment tag on section bellow and change data-src=&#39;#&#39; attribute with your logo url ]--&gt;
-  &lt;!-- &lt;img class=&#39;lazy&#39; alt=&#39;Jago Desain&#39; data-src=&#39;#&#39; src=&#39;data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=&#39;/&gt; --&gt;
+  <!--[ Delete comment tag on section bellow and change data-src='#' attribute with your logo url ]-->
+  <!-- <img class='lazy' alt='Jago Desain' data-src='#' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='/> -->
 
-&lt;/div&gt;
+</div>
 
-&lt;p class=&#39;abtD&#39;&gt;Mauris lacus dolor, ultricies vel sodales ac, egestas vel eros.&lt;/p&gt;</b:widget-setting>
+<p class='abtD'>Mauris lacus dolor, ultricies vel sodales ac, egestas vel eros.</p>]]></b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <div class='widget-content abtU' expr:data-text='data:title'>
@@ -3514,17 +3454,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                 </b:widget>
                 <b:widget id='LinkList1' locked='false' title='Social Media Link' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
-                    <b:widget-setting name='link-3'>#</b:widget-setting>
-                    <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                    <b:widget-setting name='link-4'>#</b:widget-setting>
+                    <b:widget-setting name='link-7'>https://www.reddit.com/ # Reddit</b:widget-setting>
+                    <b:widget-setting name='link-5'>#testimonial-wrap</b:widget-setting>
+                    <b:widget-setting name='link-6'>#main-wrapper</b:widget-setting>
+                    <b:widget-setting name='link-3'>https://www.linkedin.com/in/imamuddinwp</b:widget-setting>
+                    <b:widget-setting name='link-4'>https://www.youtube.com/@imamuddinwp</b:widget-setting>
                     <b:widget-setting name='text-1'>Instagram</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
                     <b:widget-setting name='text-0'>Facebook</b:widget-setting>
-                    <b:widget-setting name='link-2'>#</b:widget-setting>
-                    <b:widget-setting name='text-3'>Youtube</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='text-3'>LinkedIn</b:widget-setting>
                     <b:widget-setting name='text-2'>Twitter</b:widget-setting>
-                    <b:widget-setting name='text-4'>LinkedIn</b:widget-setting>
+                    <b:widget-setting name='text-5'>Reviews</b:widget-setting>
+                    <b:widget-setting name='text-4'>Youtube</b:widget-setting>
+                    <b:widget-setting name='text-7'>reddit</b:widget-setting>
+                    <b:widget-setting name='text-6'>Blog</b:widget-setting>
+                    <b:widget-setting name='shownum'>4</b:widget-setting>
+                    <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.instagram.com/imamuddinwp</b:widget-setting>
+                    <b:widget-setting name='link-2'>https://twitter.com/imamuddinweb</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.facebook.com/imamuddinwpbd</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='content'/>
@@ -3548,11 +3495,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               <b:section id='footer-widget-2' maxwidgets='2' showaddelement='true'>
                 <b:widget id='LinkList2' locked='false' title='Company' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
+                    <b:widget-setting name='link-3'>/404</b:widget-setting>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                    <b:widget-setting name='link-4'>#</b:widget-setting>
                     <b:widget-setting name='text-1'>Blog</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.imamuddinwp.com/</b:widget-setting>
                     <b:widget-setting name='text-0'>About</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='link-2'>javascript:;</b:widget-setting>
+                    <b:widget-setting name='text-3'>404</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/about-me-who-am-i.html</b:widget-setting>
+                    <b:widget-setting name='text-2'>Spotify</b:widget-setting>
+                    <b:widget-setting name='text-4'>Others</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3576,11 +3529,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
               <b:section id='footer-widget-3' maxwidgets='2' showaddelement='true'>
                 <b:widget id='LinkList3' locked='false' title='Product &amp;amp; Service' type='LinkList' version='2' visible='true'>
                   <b:widget-settings>
+                    <b:widget-setting name='link-3'>false</b:widget-setting>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                     <b:widget-setting name='text-1'>Other Product</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.imamuddinwp.com/p/sitemap.html</b:widget-setting>
                     <b:widget-setting name='text-0'>Blogger Theme</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='link-2'>Show More</b:widget-setting>
+                    <b:widget-setting name='text-3'>darkMode</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/sitemap.html</b:widget-setting>
+                    <b:widget-setting name='text-2'>showMoreText</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3606,9 +3563,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   <b:widget-settings>
                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                     <b:widget-setting name='text-1'>Documentation</b:widget-setting>
-                    <b:widget-setting name='link-1'>#</b:widget-setting>
+                    <b:widget-setting name='link-1'>https://www.imamuddinwp.com/</b:widget-setting>
                     <b:widget-setting name='text-0'>Contact</b:widget-setting>
-                    <b:widget-setting name='link-0'>#</b:widget-setting>
+                    <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/contact.html</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main'>
                     <b:include name='widget-title'/>
@@ -3641,11 +3598,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                   <div class='fotCd'>
                     <span class='credit'>
                       <b:if cond='data:content == &quot;&quot;'>
-                        &#169; <span id='getYear'><script>/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script></span> &#8231; <a expr:href='data:blog.homepageUrl.canonical'><data:blog.title/></a>. All rights reserved.
+                        <div class='copyright-area'>Copyright &#169; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script>
+<a expr:href='data:blog.homepageUrl' expr:title='data:blog.title'><data:blog.title/></a>|All Right Reserved <style color='transparent'>Distributed By <a href='https://www.tech4era.com/' rel='dofollow' target='_blank'>Tech4era</a></style>
+</div>.
                         <b:else/>
                         <data:content/>
                       </b:if>
                     </span>
+                    <span class='creator'>Distributed by <a href='https://www.tech4era.com/'>Tech4era</a></span>
                   </div>
                 </b:includable>
               </b:widget>
@@ -3689,7 +3649,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
         <b:if cond='!data:view.isPreview'>
           <!--[ Delete 'or data:blog.isMobileRequest' if you want to show ad in both(desktop and mobile) ]-->
           <b:section cond='data:view.isLayoutMode or data:blog.isMobileRequest' id='anchor-ad' showaddelement='false'>
-            <b:widget id='HTML99' locked='true' title='Anchor ad placement(mobile only)' type='HTML' version='2' visible='false'>
+            <b:widget id='HTML99' locked='true' title='Anchor ad placement(mobile only)' type='HTML' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='content'/>
               </b:widget-settings>
@@ -3720,9 +3680,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
       <b:section class='erroC' cond='data:view.isLayoutMode or data:view.isError' id='error-404' showaddelement='false'>
         <b:widget id='HTML404' locked='true' title='Take me back' type='HTML' version='2' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>&lt;h3&gt;&lt;span&gt;404&lt;/span&gt;Something Wrong!&lt;/h3&gt;
+            <b:widget-setting name='content'><![CDATA[<h3><span>404</span>Something Wrong!</h3>
 
-&lt;p&gt;The page you&#39;ve requested can&#39;t be found. Why don&#39;t you browse around?&lt;/p&gt;</b:widget-setting>
+<p>The page you've requested can't be found. Why don't you browse around?</p>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <data:content/>
