@@ -2067,11 +2067,11 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
             
             <b:comment>Header widget</b:comment>
             <b:section class='headT notranslate' id='header-title' maxwidgets='1' showaddelement='false'>
-              <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' version='2' visible='true'>
+              <b:widget id='Header1' locked='true' title='Digital Marketing Nomad (Header)' type='Header' version='2' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='displayUrl'/>
                   <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                  <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+                  <b:widget-setting name='sectionWidth'>772</b:widget-setting>
                   <b:widget-setting name='useImage'>false</b:widget-setting>
                   <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                   <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -2542,7 +2542,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                               </li>
                             
                               <li itemprop='name'>
-                                <a href='#' itemprop='url'>
+                                <a href='https://www.imamuddinwp.com/p/faq-schema-generator-tool.html' itemprop='url'>
                                   <span>Sub-menu 07</span>
                                 </a>
                               </li>
@@ -2559,7 +2559,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                         <!--[ Standar menu ]-->
                         <li class='leftC'>
                           <b:comment>Change attribute href= to add url</b:comment>
-                          <a aria-label='About' class='a flex op i20' href='#' itemprop='url'>
+                          <a aria-label='About' class='a flex op i20' href='https://www.imamuddinwp.com/p/about-me-who-am-i.html' itemprop='url'>
                             <!--[ icon ]-->
                             <b:include name='profile-2user-icon'/>
                             
@@ -2573,7 +2573,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                         <!--[ Standar menu ]-->
                         <li class='leftC br'>
                           <b:comment>Change attribute href= to add url</b:comment>
-                          <a aria-label='Contact' class='a flex op i20' href='#' itemprop='url'>
+                          <a aria-label='Contact' class='a flex op i20' href='https://www.imamuddinwp.com/p/contact.html' itemprop='url'>
                             <!--[ icon ]-->
                             <b:include name='sms-edit-icon'/>
                             
@@ -2587,7 +2587,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                         <!--[ Standar menu ]-->
                         <li class='leftC'>
                           <b:comment>Change attribute href= to add url</b:comment>
-                          <a aria-label='Custom menu' class='a flex op i20' href='#' itemprop='url'>
+                          <a aria-label='Custom menu' class='a flex op i20' href='https://www.imamuddinwp.com/p/text-to-html-list-converter-online-html.html' itemprop='url'>
                             <!--[ icon ]-->
                             <b:include name='folder-2-icon'/>
                             
@@ -2601,7 +2601,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                         <!--[ Standar menu ]-->
                         <li class='leftC'>
                           <b:comment>Change attribute href= to add url</b:comment>
-                          <a aria-label='Custom menu' class='a flex op i20' href='#' itemprop='url'>
+                          <a aria-label='Custom menu' class='a flex op i20' href='https://www.imamuddinwp.com/p/seo-tools-for-digital-marketing-free.html' itemprop='url'>
                             <!--[ icon ]-->
                             <b:include name='folder-2-icon'/>
                             
@@ -2615,7 +2615,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                         <!--[ Standar menu ]-->
                         <li class='leftC'>
                           <b:comment>Change attribute href= to add url</b:comment>
-                          <a aria-label='Custom menu' class='a flex op i20' href='#' itemprop='url'>
+                          <a aria-label='Custom menu' class='a flex op i20' href='https://www.imamuddinwp.com/p/text-to-html-list-converter-online-html.html' itemprop='url'>
                             <!--[ icon ]-->
                             <b:include name='folder-2-icon'/>
                             
@@ -4932,8 +4932,8 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                             <b:widget-setting name='link-8'>javascript:void(0)</b:widget-setting>
                             <b:widget-setting name='link-5'>#testimonial-wrap</b:widget-setting>
                             <b:widget-setting name='link-6'>#main-wrapper</b:widget-setting>
-                            <b:widget-setting name='link-3'>#</b:widget-setting>
-                            <b:widget-setting name='link-4'>https://instagram.com/niadzgn</b:widget-setting>
+                            <b:widget-setting name='link-3'>https://www.imamuddinwp.com/p/faqs.html</b:widget-setting>
+                            <b:widget-setting name='link-4'>https://instagram.com/imamuddinwp</b:widget-setting>
                             <b:widget-setting name='text-1'>Disclaimer</b:widget-setting>
                             <b:widget-setting name='text-0'>Term</b:widget-setting>
                             <b:widget-setting name='text-3'>Faq</b:widget-setting>
@@ -4942,10 +4942,11 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                             <b:widget-setting name='text-4'>instagram</b:widget-setting>
                             <b:widget-setting name='text-7'>reddit</b:widget-setting>
                             <b:widget-setting name='text-6'>Blog</b:widget-setting>
+                            <b:widget-setting name='shownum'>4</b:widget-setting>
                             <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                            <b:widget-setting name='link-1'>#</b:widget-setting>
-                            <b:widget-setting name='link-2'>#</b:widget-setting>
-                            <b:widget-setting name='link-0'>#</b:widget-setting>
+                            <b:widget-setting name='link-1'>https://www.imamuddinwp.com/p/disclaimer.html</b:widget-setting>
+                            <b:widget-setting name='link-2'>https://www.imamuddinwp.com/p/privacy-policy.html</b:widget-setting>
+                            <b:widget-setting name='link-0'>https://www.imamuddinwp.com/p/privacy-policy.html</b:widget-setting>
                           </b:widget-settings>
                           <b:includable id='main'>
                             <b:include name='content'/>
@@ -4976,7 +4977,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                   <b:widget-setting name='sorting'>NONE</b:widget-setting>
                   <b:widget-setting name='link-4'>custom_text</b:widget-setting>
                   <b:widget-setting name='text-1'>Search</b:widget-setting>
-                  <b:widget-setting name='link-1'>custom_text</b:widget-setting>
+                  <b:widget-setting name='link-1'>https://imamuddinwp.com/search</b:widget-setting>
                   <b:widget-setting name='text-0'>Home</b:widget-setting>
                   <b:widget-setting name='link-2'>custom_text</b:widget-setting>
                   <b:widget-setting name='text-3'>Share</b:widget-setting>
@@ -5117,11 +5118,11 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                       <b:widget-setting name='text-10'>Line</b:widget-setting>
                       <b:widget-setting name='shownum'>4</b:widget-setting>
                       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-                      <b:widget-setting name='link-1'>#</b:widget-setting>
+                      <b:widget-setting name='link-1'>https://www.instagram.com/imamuddinwpbd</b:widget-setting>
                       <b:widget-setting name='link-13'>#</b:widget-setting>
-                      <b:widget-setting name='link-2'>#</b:widget-setting>
+                      <b:widget-setting name='link-2'>https://twitter.com/imamuddinweb</b:widget-setting>
                       <b:widget-setting name='link-12'>#</b:widget-setting>
-                      <b:widget-setting name='link-0'>#</b:widget-setting>
+                      <b:widget-setting name='link-0'>https://www.facebook.com/imamuddinwpbd</b:widget-setting>
                       <b:widget-setting name='link-11'>#</b:widget-setting>
                       <b:widget-setting name='link-10'>#</b:widget-setting>
                       <b:widget-setting name='text-9'>Tiktok</b:widget-setting>
@@ -5129,10 +5130,10 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                       <b:widget-setting name='text-8'>Messenger</b:widget-setting>
                       <b:widget-setting name='link-7'>#</b:widget-setting>
                       <b:widget-setting name='link-8'>#</b:widget-setting>
-                      <b:widget-setting name='link-5'>#</b:widget-setting>
+                      <b:widget-setting name='link-5'>https://www.pinterest.com/imamuddinwp</b:widget-setting>
                       <b:widget-setting name='link-6'>#</b:widget-setting>
-                      <b:widget-setting name='link-3'>#</b:widget-setting>
-                      <b:widget-setting name='link-4'>#</b:widget-setting>
+                      <b:widget-setting name='link-3'>https://www.youtube.com/@imamuddinwp</b:widget-setting>
+                      <b:widget-setting name='link-4'>https://www.linkedin.com/in/imamuddinwp</b:widget-setting>
                       <b:widget-setting name='text-1'>Instagram</b:widget-setting>
                       <b:widget-setting name='text-0'>Facebook</b:widget-setting>
                       <b:widget-setting name='text-3'>Youtube</b:widget-setting>
@@ -5290,8 +5291,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                 </b:if>
               </b:loop>
             </div>
-          </div>
-          
+          </div>          
           <script>/*<![CDATA[*/ const cookieBox = document.querySelector(".nJ.cookie"), acceptBtn = cookieBox.querySelector(".acc"); acceptBtn.onclick = ()=> {document.cookie = "cookie=Notification; max-age="+60*60*24*30; if(document.cookie) {cookieBox.classList.add("hidden");} else {alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser."); } }; let checkCookie = document.cookie.indexOf("cookie=Notification"); checkCookie != -1 ? cookieBox.classList.add("hidden") : cookieBox.classList.remove("hidden"); /*]]>*/</script>
         </b:includable>
       </b:widget>
@@ -5311,8 +5311,7 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
           <b:includable id='main'>
             <b:include name='content'/>
           </b:includable>
-          <b:includable id='content'>
-            
+          <b:includable id='content'>            
             <b:loop index='error' values='data:items' var='item'>
               <b:if cond='data:error &lt;= 2'>
                 <b:tag expr:name='data:error == 0 or data:error == 1 ? &quot;div&quot; : &quot;p&quot;'>
@@ -5321,44 +5320,27 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                   <data:item/>
                 </b:tag>
               </b:if>
-            </b:loop>
-            
+            </b:loop>            
             <b:comment><!--[ Homepage button ]--></b:comment>
             <a class='button' expr:aria-label='data:title' expr:href='data:blog.homepageUrl.canonical'>
               <b:comment><!--[ Remove tag bellow to change button style, or you can try to replace/add the attribute with name='round' ]--></b:comment>
-              <b:class name='ln'/>
-            </a>
-            
+              <b:class name='ln'/></a>            
           </b:includable>
         </b:widget>
       </b:section>
     </b:tag>
-    </b:if>
-    
+    </b:if>    
     <!--[ If Javascript is disabled ]-->
     <noscript>
       <details class='nJ' open=''>
         <summary class='n'><span class='c' data-text='Ignore it'/></summary>
         <span data-text='This website requires Javascript for better experience, some features may not work properly.'/>
       </details>
-    </noscript>
-    
+    </noscript>    
     <b:if cond='!data:view.isPreview and !data:view.isError'>
       <b:comment><!--[ Load More - Delete this section if you want to disable this feature ]--></b:comment>
-      <b:include cond='data:view.isHomepage or data:view.url == data:blog.homepageUrl.canonical path &quot;search&quot;' name='postPaginationMore'/>
-      
+      <b:include cond='data:view.isHomepage or data:view.url == data:blog.homepageUrl.canonical path &quot;search&quot;' name='postPaginationMore'/>      
       <script>/*<![CDATA[*/ /*@shinsenter/defer.js*/ !function(c,i,t){var f,o=/^data-(.+)/,u='IntersectionObserver',r=/p/.test(i.readyState),s=[],a=s.slice,d='lazied',n='load',e='pageshow',l='forEach',m='hasAttribute',h='shift';function p(e){i.head.appendChild(e)}function v(e,n){a.call(e.attributes)[l](n)}function y(e,n,t,o){return o=(o=n?i.getElementById(n):o)||i.createElement(e),n&&(o.id=n),t&&(o.onload=t),o}function b(e,n){return a.call((n||i).querySelectorAll(e))}function g(t,e){b('source',t)[l](g),v(t,function(e,n){(n=o.exec(e.name))&&(t[n[1]]=e.value)}),e&&(t.className+=' '+e),n in t&&t[n]()}function I(e){f(function(o){o=b(e||'[type=deferjs]'),function e(n,t){(n=o[h]())&&(n.parentNode.removeChild(n),(t=y(n.nodeName)).text=n.text,v(n,function(e){'type'!=e.name&&(t[e.name]=e.value)}),t.src&&!t[m]('async')?(t.onload=t.onerror=e,p(t)):(p(t),e()))}()})}(f=function(e,n){r?t(e,n):s.push(e,n)}).all=I,f.js=function(n,t,e,o){f(function(e){(e=y('SCRIPT',t,o)).src=n,p(e)},e)},f.css=function(n,t,e,o){f(function(e){(e=y('LINK',t,o)).rel='stylesheet',e.href=n,p(e)},e)},f.dom=function(e,n,t,o,i){function r(e){o&&!1===o(e)||g(e,t)}f(function(t){t=u in c&&new c[u](function(e){e[l](function(e,n){e.isIntersecting&&(n=e.target)&&(t.unobserve(n),r(n))})},i),b(e||'[data-src]')[l](function(e){e[m](d)||(e.setAttribute(d,''),t?t.observe(e):r(e))})},n)},f.reveal=g,c.Defer=f,c.addEventListener('on'+e in c?e:n,function(){for(I();s[0];t(s[h](),s[h]()))r=1})}(this,document,setTimeout),function(e,n){e.defer=n=e.Defer,e.deferscript=n.js,e.deferstyle=n.css,e.deferimg=e.deferiframe=n.dom}(this); /*]]>*/</script>
-      <script id='polyfill-js'>/*<![CDATA[*/ 'IntersectionObserver'in window||document.write('<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"><\/script>'); /*]]>*/</script>
-      
-      <b:comment><!--[ Additional script ]--></b:comment>
-      <b:include name='allJavascript'/>
-      <b:include cond='data:view.isPost' name='copyCodeToClipboard'/>
-      <b:include name='bookmarkLoad'/>
-      
-    </b:if>
-    
-    <!--[ WhatsApp Button For Blogger By imamuddinwp.blogspot.com ]--><input class='chat-menu hidden' id='offchat-menu' type='checkbox'/><div class='sticky-button' id='sticky-button'><label for='offchat-menu'><svg viewBox='0 0 24 24'><path d='M8.667 10.933 10.2 9.4 9.8 8H8S7.6 10.533 10.533 13.467 16 16 16 16V14.2L14.6 13.8 13.067 15.333' style='fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'/><path d='M20.867 13.467A9 9 0 0 1 7.867 20L3 21 4 16.133a9 9 0 1 1 16.867 -2.667Z' style='fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'/></svg></label></div><div class='sticky-chat'><div class='chat-content'><div class='chat-header'><svg viewbox='0 0 32 32'><path d='M24,22a1,1,0,0,1-.64-.23L18.84,18H17A8,8,0,0,1,17,2h6a8,8,0,0,1,2,15.74V21a1,1,0,0,1-.58.91A1,1,0,0,1,24,22ZM17,4a6,6,0,0,0,0,12h2.2a1,1,0,0,1,.64.23L23,18.86V16.92a1,1,0,0,1,.86-1A6,6,0,0,0,23,4Z'/><rect height='2' width='2' x='19' y='9'/><rect height='2' width='2' x='14' y='9'/><rect height='2' width='2' x='24' y='9'/><path d='M8,30a1,1,0,0,1-.42-.09A1,1,0,0,1,7,29V25.74a8,8,0,0,1-1.28-15,1,1,0,1,1,.82,1.82,6,6,0,0,0,1.6,11.4,1,1,0,0,1,.86,1v1.94l3.16-2.63A1,1,0,0,1,12.8,24H15a5.94,5.94,0,0,0,4.29-1.82,1,1,0,0,1,1.44,1.4A8,8,0,0,1,15,26H13.16L8.64,29.77A1,1,0,0,1,8,30Z'/></svg><div class='title'><a href='https://imamuddinwp.com' target='_new'>NextGen Digital...</a> <span>Welcome to WhatsApp chat</span></div></div><div class='chat-text'><span>Howdy! How can we help you today?</span><span class='typing'><svg viewbox='0 0 512 512'><circle cx='256' cy='256' r='48'/><circle cx='416' cy='256' r='48'/><circle cx='96' cy='256' r='48'/></svg></span></div></div><a class='chat-button' href='https://api.whatsapp.com/send/?phone=8801406070407' rel='nofollow noreferrer' target='_blank'><span>Type here...</span><svg viewBox='0 0 32 32'><path class='cls-1' d='M19.47,31a2,2,0,0,1-1.8-1.09l-4-7.57a1,1,0,0,1,1.77-.93l4,7.57L29,3.06,3,12.49l9.8,5.26,8.32-8.32a1,1,0,0,1,1.42,1.42l-8.85,8.84a1,1,0,0,1-1.17.18L2.09,14.33a2,2,0,0,1,.25-3.72L28.25,1.13a2,2,0,0,1,2.62,2.62L21.39,29.66A2,2,0,0,1,19.61,31Z'/></svg></a></div>
-    
-  <!--[ </body> close ]-->
-  <b:if cond='!data:view.isPreview'>&lt;!--</b:if></body><b:if cond='!data:view.isPreview'>--&gt;&lt;/body&gt;</b:if>
+<script id='polyfill-js'>/*<![CDATA[*/ 'IntersectionObserver'in window||document.write('<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"><\/script>'); /*]]>*/</script><b:comment><!--[ Additional script ]--></b:comment><b:include name='allJavascript'/><b:include cond='data:view.isPost' name='copyCodeToClipboard'/><b:include name='bookmarkLoad'/></b:if><!--[ WhatsApp Button For Blogger By imamuddinwp.blogspot.com ]--><input class='chat-menu hidden' id='offchat-menu' type='checkbox'/><div class='sticky-button' id='sticky-button'><label for='offchat-menu'><svg viewBox='0 0 24 24'><path d='M8.667 10.933 10.2 9.4 9.8 8H8S7.6 10.533 10.533 13.467 16 16 16 16V14.2L14.6 13.8 13.067 15.333' style='fill: none; stroke: rgb(44, 169, 188); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'/><path d='M20.867 13.467A9 9 0 0 1 7.867 20L3 21 4 16.133a9 9 0 1 1 16.867 -2.667Z' style='fill: none; stroke: rgb(0, 0, 0); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;'/></svg></label></div><div class='sticky-chat'><div class='chat-content'><div class='chat-header'><svg viewbox='0 0 32 32'><path d='M24,22a1,1,0,0,1-.64-.23L18.84,18H17A8,8,0,0,1,17,2h6a8,8,0,0,1,2,15.74V21a1,1,0,0,1-.58.91A1,1,0,0,1,24,22ZM17,4a6,6,0,0,0,0,12h2.2a1,1,0,0,1,.64.23L23,18.86V16.92a1,1,0,0,1,.86-1A6,6,0,0,0,23,4Z'/><rect height='2' width='2' x='19' y='9'/><rect height='2' width='2' x='14' y='9'/><rect height='2' width='2' x='24' y='9'/><path d='M8,30a1,1,0,0,1-.42-.09A1,1,0,0,1,7,29V25.74a8,8,0,0,1-1.28-15,1,1,0,1,1,.82,1.82,6,6,0,0,0,1.6,11.4,1,1,0,0,1,.86,1v1.94l3.16-2.63A1,1,0,0,1,12.8,24H15a5.94,5.94,0,0,0,4.29-1.82,1,1,0,0,1,1.44,1.4A8,8,0,0,1,15,26H13.16L8.64,29.77A1,1,0,0,1,8,30Z'/></svg><div class='title'><a href='https://imamuddinwp.com' target='_new'>NextGen Digital...</a> <span>Welcome to WhatsApp chat</span></div></div><div class='chat-text'><span>Howdy! How can we help you today?</span><span class='typing'><svg viewbox='0 0 512 512'><circle cx='256' cy='256' r='48'/><circle cx='416' cy='256' r='48'/><circle cx='96' cy='256' r='48'/></svg></span></div></div><a class='chat-button' href='https://api.whatsapp.com/send/?phone=8801406070407' rel='nofollow noreferrer' target='_blank'><span>Type here...</span><svg viewBox='0 0 32 32'><path class='cls-1' d='M19.47,31a2,2,0,0,1-1.8-1.09l-4-7.57a1,1,0,0,1,1.77-.93l4,7.57L29,3.06,3,12.49l9.8,5.26,8.32-8.32a1,1,0,0,1,1.42,1.42l-8.85,8.84a1,1,0,0,1-1.17.18L2.09,14.33a2,2,0,0,1,.25-3.72L28.25,1.13a2,2,0,0,1,2.62,2.62L21.39,29.66A2,2,0,0,1,19.61,31Z'/></svg></a></div>    
+  <!--[ </body> close ]--><b:if cond='!data:view.isPreview'>&lt;!--</b:if></body><b:if cond='!data:view.isPreview'>--&gt;&lt;/body&gt;</b:if>
 </html>
