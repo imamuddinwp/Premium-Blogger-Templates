@@ -175,22 +175,22 @@ $(document).ready(function(){var static_page_text=$.trim($(".post-body").text())
       </b:widget>
       <b:widget id='HTML911' locked='true' title='Label Icons CSS' type='HTML' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='content'>a.Video:before {content:&quot;\f144&quot;}
-a.Car:before {content:&quot;\f1b9&quot;}
-a.Business:before {content:&quot;\f0b1&quot;}
-a.People:before {content:&quot;\f183&quot;}
-a.Nature:before {content:&quot;\f06c&quot;}
-a.Fashion:before {content:&quot;\f0c4&quot;}
-a.Gallery:before {content:&quot;\f03e&quot;}
-a.Technology:before {content:&quot;\f1e6&quot;}
-a.Learn:before, a.Culture:before {content:&quot;\f02d&quot;}
-a.Music:before {content:&quot;\f001&quot;}
-a.Sports:before {content:&quot;\f091&quot;}
-a.Children:before {content:&quot;\f1ae&quot;}
-a.Photography:before {content:&quot;\f030&quot;}
-a.Beauty:before {content:&quot;\f004&quot;}
-a.Food:before {content:&quot;\f015&quot;}
-a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
+          <b:widget-setting name='content'><![CDATA[a.Video:before {content:"\f144"}
+a.Car:before {content:"\f1b9"}
+a.Business:before {content:"\f0b1"}
+a.People:before {content:"\f183"}
+a.Nature:before {content:"\f06c"}
+a.Fashion:before {content:"\f0c4"}
+a.Gallery:before {content:"\f03e"}
+a.Technology:before {content:"\f1e6"}
+a.Learn:before, a.Culture:before {content:"\f02d"}
+a.Music:before {content:"\f001"}
+a.Sports:before {content:"\f091"}
+a.Children:before {content:"\f1ae"}
+a.Photography:before {content:"\f030"}
+a.Beauty:before {content:"\f004"}
+a.Food:before {content:"\f015"}
+a.News:before {content:"\f1ea"}]]></b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
           &lt;style&gt;<data:content/>&lt;/style&gt;
@@ -260,7 +260,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
  <div class='body-row' id='header-wrappers'>
     <div class='headerleft'> 
       <b:section class='headerleft' id='headerleft' maxwidgets='1' name='Blog Logo' showaddelement='no'>
-         <b:widget id='Header1' locked='true' title='NewsPaper (Header)' type='Header' version='1'>
+         <b:widget id='Header1' locked='true' title='Digital Marketing Nomad (Header)' type='Header' version='1'>
            <b:widget-settings>
              <b:widget-setting name='displayUrl'>http://3.bp.blogspot.com/-P9y02u1Ot34/WogSVY3TUII/AAAAAAAAEr8/9oGtDJ6URnIW22HtgxwfPmTnLXYGlRB-QCK4BGAYYCw/s1600/Papermag-smooth.png</b:widget-setting>
              <b:widget-setting name='displayHeight'>51</b:widget-setting>
@@ -354,20 +354,20 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
               <b:widget-setting name='text-10'>_Right Sidebar</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-1'>#</b:widget-setting>
-              <b:widget-setting name='link-13'>http://www.sorabloggingtips.com/2018/02/how-to-setup-newspaper-blogger-template.html</b:widget-setting>
+              <b:widget-setting name='link-13'>https://www.imamuddinwp.com/</b:widget-setting>
               <b:widget-setting name='link-2'>#</b:widget-setting>
-              <b:widget-setting name='link-12'>http://www.shardawebservices.com/</b:widget-setting>
+              <b:widget-setting name='link-12'>https://www.imamuddinwp.com/</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-14'>http://www.templatesyard.com/2018/02/newspaper-news-blogger-template.html</b:widget-setting>
-              <b:widget-setting name='link-11'>http://newspaper-templatesyard.blogspot.in/2016/03/tablet-on-table-showing-calendar.html</b:widget-setting>
-              <b:widget-setting name='link-10'>http://newspaper-templatesyard.blogspot.in/2016/03/business-man-analyzing-graphs-on-tablet.html</b:widget-setting>
+              <b:widget-setting name='link-14'>https://www.imamuddinwp.com/</b:widget-setting>
+              <b:widget-setting name='link-11'>https://www.imamuddinwp.com/2023/10/download-blogger-template-free.html</b:widget-setting>
+              <b:widget-setting name='link-10'>https://www.imamuddinwp.com/2021/10/how-to-add-table-of-contents-in-blogger.html</b:widget-setting>
               <b:widget-setting name='text-9'>_Left Sidebar</b:widget-setting>
-              <b:widget-setting name='link-9'>http://newspaper-templatesyard.blogspot.com/2016/03/cars-waiting-pedestrians-cross-street.html</b:widget-setting>
+              <b:widget-setting name='link-9'>https://www.imamuddinwp.com/2024/05/download-from-terabox-without-app-without-account.html</b:widget-setting>
               <b:widget-setting name='text-8'>Post Formats</b:widget-setting>
-              <b:widget-setting name='link-7'>https://newspaper-templatesyard.blogspot.in/templatesyard</b:widget-setting>
+              <b:widget-setting name='link-7'>https://www.imamuddinwp.com/2024/05/pinktong-blogger-template-free-download-latest-version.html</b:widget-setting>
               <b:widget-setting name='link-8'>#</b:widget-setting>
-              <b:widget-setting name='link-5'>https://newspaper-templatesyard.blogspot.in/p/page-markup-and-typography.html</b:widget-setting>
-              <b:widget-setting name='link-6'>https://www.sorabloggingtips.com/2017/01/how-to-add-sitemap-widget-in-blogspot-blogs.html</b:widget-setting>
+              <b:widget-setting name='link-5'>https://www.imamuddinwp.com/2024/03/plus-ui-blogger-template-free-download.html</b:widget-setting>
+              <b:widget-setting name='link-6'>https://www.imamuddinwp.com/2024/03/xml-sitemap-generator-for-blogger-free.html</b:widget-setting>
               <b:widget-setting name='link-3'>#</b:widget-setting>
               <b:widget-setting name='link-4'>#</b:widget-setting>
               <b:widget-setting name='text-1'>_Multi DropDown</b:widget-setting>
@@ -439,16 +439,16 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 <b:section class='ad-home-widget' id='adwidegt1' maxwidgets='1' name='Home Ad Widget' showaddelement='yes'>
   <b:widget id='HTML90' locked='false' title='Home Top Ad' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;span&gt;
-&lt;div class=&quot;lalulintas&quot;&gt;&lt;span class=&quot;rambuhijau&quot;&gt;Responsive Ads Here&lt;/span&gt;
-&lt;/div&gt;
-&lt;style type=&quot;text/css&quot;&gt;
+      <b:widget-setting name='content'><![CDATA[<span>
+<div class="lalulintas"><span class="rambuhijau">Responsive Ads Here</span>
+</div>
+<style type="text/css">
 .lalulintas{width:100%;height:100px;background:#f11809;margin:0 auto;position:relative;}
 .rambuhijau{background:#f8695f;position:absolute;display:block;color:rgba(0,0,0,0.2);text-align:center;text-transform:uppercase;letter-spacing:2px;font-size:180%;padding:10px;margin:5px;left:0;right:0;top:0;bottom:0;font-weight:700;line-height:4.4rem}
 @media only screen and (max-width: 768px) {
 .rambuhijau {font-size:100%;}
 }
-&lt;/style&gt;&lt;/span&gt;</b:widget-setting>
+</style></span>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -588,16 +588,16 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 <b:section class='ad-top-widget' id='adwidegt2' maxwidgets='1' name='Post Top Ad Widget' showaddelement='yes'>
   <b:widget id='HTML95' locked='false' title='Post Top Ad' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;span&gt;
-&lt;div class=&quot;lalulintas&quot;&gt;&lt;span class=&quot;rambuhijau&quot;&gt;Responsive Ads Here&lt;/span&gt;
-&lt;/div&gt;
-&lt;style type=&quot;text/css&quot;&gt;
+      <b:widget-setting name='content'><![CDATA[<span>
+<div class="lalulintas"><span class="rambuhijau">Responsive Ads Here</span>
+</div>
+<style type="text/css">
 .lalulintas{width:100%;height:100px;background:#f11809;margin:0 auto;position:relative;}
 .rambuhijau{background:#f8695f;position:absolute;display:block;color:rgba(0,0,0,0.2);text-align:center;text-transform:uppercase;letter-spacing:2px;font-size:180%;padding:10px;margin:5px;left:0;right:0;top:0;bottom:0;font-weight:700;line-height:4.4rem}
 @media only screen and (max-width: 768px) {
 .rambuhijau {font-size:100%;}
 }
-&lt;/style&gt;&lt;/span&gt;</b:widget-setting>
+</style></span>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -626,22 +626,27 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
      <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
        <b:widget-settings>
          <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-         <b:widget-setting name='style.textcolor'>#373e59</b:widget-setting>
+         <b:widget-setting name='commentLabel'>Comment</b:widget-setting>
+         <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
          <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+         <b:widget-setting name='authorLabel'>Oleh</b:widget-setting>
          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-         <b:widget-setting name='style.urlcolor'>#00a7fe</b:widget-setting>
+         <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
          <b:widget-setting name='showAuthor'>true</b:widget-setting>
-         <b:widget-setting name='style.linkcolor'>#00a7fe</b:widget-setting>
+         <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-         <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+         <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+         <b:widget-setting name='timestampLabel'>On</b:widget-setting>
+         <b:widget-setting name='reactionsLabel'/>
          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
          <b:widget-setting name='showLabels'>true</b:widget-setting>
-         <b:widget-setting name='showLocation'>true</b:widget-setting>
+         <b:widget-setting name='showLocation'>false</b:widget-setting>
+         <b:widget-setting name='postLabelsLabel'>in</b:widget-setting>
          <b:widget-setting name='showTimestamp'>true</b:widget-setting>
          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
-         <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+         <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
          <b:widget-setting name='showInlineAds'>false</b:widget-setting>
          <b:widget-setting name='showReactions'>false</b:widget-setting>
        </b:widget-settings>
@@ -2070,16 +2075,16 @@ letter-spacing:1.5px;
 <b:section class='ad-bottom-widget' id='adwidegt3' maxwidgets='1' name='Post Bottom Ad Widget' showaddelement='yes'>
   <b:widget id='HTML98' locked='false' title='Post Bottom Ad' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>&lt;span&gt;
-&lt;div class=&quot;lalulintas&quot;&gt;&lt;span class=&quot;rambuhijau&quot;&gt;Responsive Ads Here&lt;/span&gt;
-&lt;/div&gt;
-&lt;style type=&quot;text/css&quot;&gt;
+      <b:widget-setting name='content'><![CDATA[<span>
+<div class="lalulintas"><span class="rambuhijau">Responsive Ads Here</span>
+</div>
+<style type="text/css">
 .lalulintas{width:100%;height:100px;background:#f11809;margin:0 auto;position:relative;}
 .rambuhijau{background:#f8695f;position:absolute;display:block;color:rgba(0,0,0,0.2);text-align:center;text-transform:uppercase;letter-spacing:2px;font-size:180%;padding:10px;margin:5px;left:0;right:0;top:0;bottom:0;font-weight:700;line-height:4.4rem}
 @media only screen and (max-width: 768px) {
 .rambuhijau {font-size:100%;}
 }
-&lt;/style&gt;&lt;/span&gt;</b:widget-setting>
+</style></span>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2228,43 +2233,17 @@ letter-spacing:1.5px;
 </b:section>
 <div style='clear: both;'/>
     <b:section class='sidebar ty-trigger' id='sidebar(1)' preferred='yes'>
-      <b:widget id='FollowByEmail2' locked='false' title='Follow by Email' type='FollowByEmail' version='1'>
-        <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
-  <div class='widget-content'>
-    <div class='follow-by-email-inner'>
-      <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
-        <table width='100%'>
-          <tr>
-            <td>
-              <input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
-            </td>
-            <td width='64px'>
-              <input class='follow-by-email-submit' type='submit' value='Submit'/>
-            </td>
-          </tr>
-        </table>
-        <input expr:value='data:feedPath' name='uri' type='hidden'/>
-        <input name='loc' type='hidden' value='en_US'/>
-      </form>
-    </div>
-  </div>
-  <span class='item-control blog-admin'>
-    <!--<b:include name='quickedit'/>-->
-  </span>
-</b:includable>
-      </b:widget>
       <b:widget id='HTML2' locked='false' title='Facebook' type='HTML' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='content'>&lt;center&gt;&lt;div class=&quot;fb-padding&quot;&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
-&lt;script&gt;(function(d, s, id) {
+          <b:widget-setting name='content'><![CDATA[<center><div class="fb-padding"><div id="fb-root"></div>
+<script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.3&amp;appId=1395743857335531&quot;;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1395743857335531";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
-&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/templatesyard&quot; data-width=&quot;340&quot; data-height=&quot;230&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot; data-show-posts=&quot;false&quot;&gt;&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/center&gt;</b:widget-setting>
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/templatesyard" data-width="340" data-height="230" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"><div class="fb-xfbml-parse-ignore"></div></div></div></center>]]></b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2568,7 +2547,7 @@ letter-spacing:1.5px;
   <b:section class='bot-menu' id='Bottom-menu' maxwidgets='1' showaddelement='yes'>
     <b:widget id='PageList1' locked='true' title='Pages' type='PageList' version='1'>
       <b:widget-settings>
-        <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://newspaper-templatesyard.blogspot.com/', 'title': 'Home', 'position': 0}, '2337527862741219743': {'href': 'https://newspaper-templatesyard.blogspot.com/p/about.html', 'title': 'About', 'position': 1}, '8697632808488308162': {'href': 'https://newspaper-templatesyard.blogspot.com/p/contact-us.html', 'title': 'Contact Us', 'position': 2}, '127901784123513337': {'href': 'https://newspaper-templatesyard.blogspot.com/p/sitemap.html', 'title': 'SiteMap', 'position': 3}}]]></b:widget-setting>
+        <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://www.imamuddinwp.com/","position":0,"title":"Home"}}]]></b:widget-setting>
         <b:widget-setting name='homeTitle'>Home</b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -2689,43 +2668,43 @@ letter-spacing:1.5px;
    </b:widget>
    <b:widget id='HTML6' locked='false' title='Connect With us' type='HTML' version='1'>
      <b:widget-settings>
-       <b:widget-setting name='content'>&lt;div class=&quot;social-counter-man&quot;&gt;
+       <b:widget-setting name='content'><![CDATA[<div class="social-counter-man">
 
-      &lt;a class=&quot;count facebook&quot; href=&quot;#&quot;&gt;
-        &lt;div class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-        &lt;p&gt;&lt;span&gt;34.2k&lt;/span&gt; likes&lt;/p&gt;
-        &lt;p class=&quot;action-btn&quot;&gt;Like&lt;/p&gt;
-      &lt;/a&gt;
+      <a class="count facebook" href="https://www.facebook.com/imamuddinwpbd">
+        <div class="icon"><i class="fa fa-facebook"></i></div>
+        <p><span>34.2k</span> likes</p>
+        <p class="action-btn">Like</p>
+      </a>
       
       
     
-      &lt;!-- TWITTER --&gt;
-      &lt;a class=&quot;count twitter&quot; href=&quot;#&quot;&gt;
-        &lt;div class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-        &lt;p&gt;&lt;span&gt;28.6k&lt;/span&gt; followers&lt;/p&gt;
-        &lt;p class=&quot;action-btn&quot;&gt;Follow&lt;/p&gt;
-      &lt;/a&gt;
+      <!-- TWITTER -->
+      <a class="count twitter" href="https://twitter.com/imamuddinweb">
+        <div class="icon"><i class="fa fa-twitter"></i></div>
+        <p><span>28.6k</span> followers</p>
+        <p class="action-btn">Follow</p>
+      </a>
       
-      &lt;!-- YOUTUBE --&gt;
-      &lt;a class=&quot;count youtube&quot; href=&quot;#&quot;&gt;
-        &lt;div class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-youtube&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-        &lt;p&gt;&lt;span&gt;8.6k&lt;/span&gt; subscribers&lt;/p&gt;
-        &lt;p class=&quot;action-btn&quot;&gt;Subscribe&lt;/p&gt;
-      &lt;/a&gt;
+      <!-- YOUTUBE -->
+      <a class="count youtube" href="https://www.youtube.com/@imamuddinwp">
+        <div class="icon"><i class="fa fa-youtube"></i></div>
+        <p><span>8.6k</span> subscribers</p>
+        <p class="action-btn">Subscribe</p>
+      </a>
 
-      &lt;!-- GOOGLE PLUS --&gt;
-      &lt;a class=&quot;count google-plus&quot; href=&quot;#&quot;&gt;
-        &lt;div class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/div&gt;
-        &lt;p&gt;&lt;span&gt;17.3k&lt;/span&gt; followers&lt;/p&gt;
-        &lt;p class=&quot;action-btn&quot;&gt;+1&lt;/p&gt;
-      &lt;/a&gt;
+      <!-- GOOGLE PLUS -->
+      <a class="count google-plus" href="#">
+        <div class="icon"><i class="fa fa-google-plus"></i></div>
+        <p><span>17.3k</span> followers</p>
+        <p class="action-btn">+1</p>
+      </a>
 
-      &lt;!-- INSTAGRAM --&gt;
+      <!-- INSTAGRAM -->
      
 
      
-    &lt;/div&gt;
-&lt;style&gt;
+    </div>
+<style>
 .social-counter-man{
   padding: 0;
   display: block;
@@ -2861,7 +2840,7 @@ letter-spacing:1.5px;
 .snapchat .icon i{font-size:24px;text-shadow: -1px 0 black,0 -1px black, 1px 0 black, 0 1px black}
 
 .snapchat .action-btn{text-shadow: 0 0 1px black}
-&lt;/style&gt;</b:widget-setting>
+</style>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2903,7 +2882,7 @@ letter-spacing:1.5px;
 <b:section class='lowerbar ty-trigger' id='Footer widget(3)' preferred='yes'>
    <b:widget id='HTML9' locked='false' title='About Me' type='HTML' version='1'>
      <b:widget-settings>
-       <b:widget-setting name='content'>&lt;style&gt;.avatar {
+       <b:widget-setting name='content'><![CDATA[<style>.avatar {
     float: left;
 }
 .avatar-85 {
@@ -2941,26 +2920,26 @@ line-height: 42px;
 -moz-osx-font-smoothing: grayscale;
 }
 .icons-social .facebook:before {
-content: &quot;\f09a&quot;;
+content: "\f09a";
 }
 .icons-social .twitter:before {
-content: &quot;\f099&quot;;
+content: "\f099";
 }
 .icons-social .gplus:before {
-content: &quot;\f0d5&quot;;
+content: "\f0d5";
 }
 .icons-social .linkedin:before {
-content: &quot;\f0e1&quot;;
+content: "\f0e1";
 }
 .icons-social .instagram:before {
-content: &quot;\f16d&quot;;
+content: "\f16d";
 }
 .icons-social .pinterest:before {
-content: &quot;\f0d2&quot;;
+content: "\f0d2";
 }
-&lt;/style&gt;&lt;p&gt;&lt;img alt=&quot;author&quot; src=&quot;https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png&quot; srcset=&quot;https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png&quot; class=&quot;avatar avatar-85 photo&quot; height=&quot;85&quot; width=&quot;85&quot; /&gt;Hello, my name is Jack Sparrow. I&#39;m a 50 year old self-employed Pirate from the Caribbean. &lt;br /&gt;&lt;a href=&quot;#&quot; style=&quot;
+</style><p><img alt="author" src="https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png" srcset="https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png" class="avatar avatar-85 photo" height="85" width="85" />Hello, my name is Jack Sparrow. I'm a 50 year old self-employed Pirate from the Caribbean. <br /><a href="https://www.imamuddinwp.com/search" style="
     color: #0288d1;
-&quot;&gt;Learn More &#8594;&lt;/a&gt;&lt;/p&gt;</b:widget-setting>
+">Learn More â†’</a></p>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -3277,8 +3256,8 @@ article {
     var numPages=5;
     var firstText ='First';
     var lastText ='Last';
-    var prevText ='« Previous';
-    var nextText ='Next »';
+    var prevText ='Â« Previous';
+    var nextText ='Next Â»';
     var urlactivepage=location.href;
     var home_page="/";
   /*]]>*/
