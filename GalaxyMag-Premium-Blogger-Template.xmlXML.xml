@@ -26,7 +26,7 @@
 -----------------------------------------------
 Blogger Template Style
 Name:        GalaxyMag
-Version:     1.9.9
+Version:     2.1.0
 Author:      Templateify
 Author Url:  https://themeforest.net/user/templateifydotcom
 ----------------------------------------------- */
@@ -1349,7 +1349,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:case value='nextPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Next Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Artículo Siguiente<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Próxima Postagem<b:else/><data:messages.older/></b:if>
 <b:case value='followByEmailText'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Get all latest content delivered straight to your inbox.<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Obtener todo el contenido más reciente directamente en su correo electrónico.<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Obtenha todo o conteúdo mais recente diretamente na sua caixa de entrada.<b:else/><data:messages.getEmailNotifications/></b:if>
 <b:case value='loadMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Load More Posts<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Cargar Más Entradas<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Carregar Mais Postagens<b:else/><data:messages.loadMorePosts/></b:if>
-<b:case value='noMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>That is All<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Eso es Todo<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Isso é Tudo<b:else/><data:messages.noResultsFound/></b:if>
+<b:case value='noMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>That is All...<a href='https://imamuddinwp.com/search' style='opacity: 0.01;'>imamuddinwp</a><b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Eso es Todo<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Isso é Tudo<b:else/><data:messages.noResultsFound/></b:if>
       </b:switch>
     </b:includable> 
   </b:defaultmarkup>
@@ -1728,7 +1728,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                 <b:widget-settings>
                   <b:widget-setting name='displayUrl'/>
                   <b:widget-setting name='displayHeight'>0</b:widget-setting>
-                  <b:widget-setting name='sectionWidth'>600</b:widget-setting>
+                  <b:widget-setting name='sectionWidth'>792</b:widget-setting>
                   <b:widget-setting name='useImage'>false</b:widget-setting>
                   <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
                   <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
@@ -2675,7 +2675,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
                   </b:if>
                   <div id='comment-holder'>
                     <data:post.commentHtml/>
-                  </div>
+                  </div>              
                 </div>
                 <p class='comment-footer'>
                   <b:if cond='data:post.allowNewComments'>
@@ -2819,7 +2819,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text150' locked='true' title='Credits' type='Text' version='2' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[Design by - <a href="https://www.imamuddinwp.com" target="_blank">ImAmUdDiN</a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[Design by - <a href="https://imamuddinwp.com" target="_blank">ImAmUdDiN</a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
               <span class='copyright-text'><data:content/></span>
