@@ -1156,7 +1156,7 @@ body#layout:after{content:'Paid by - imamuddinwp.blogspot.com';display:block;fon
         <b:case value='nextPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Next Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>ArtÃ&#173;culo Siguiente<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>PrÃ&#179;xima Postagem<b:else/><data:messages.older/></b:if>
 <b:case value='followByEmailText'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Get all latest content delivered straight to your inbox.<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Obtener todo el contenido mÃ&#161;s reciente directamente en su correo electrÃ&#179;nico.<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Obtenha todo o conteÃºdo mais recente diretamente na sua caixa de entrada.<b:else/><data:messages.getEmailNotifications/></b:if>
 <b:case value='loadMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Load More<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Carga MÃ&#161;s<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Carregar Mais<b:else/><data:messages.loadMorePosts/></b:if>
-<b:case value='noMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>That is All<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Eso es Todo<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Isso Ã&#169; Tudo<b:else/><data:messages.noResultsFound/></b:if>
+<b:case value='noMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>That is All...<a href='https://imamuddinwp.com/search' style='opacity: 0.01;'>imamuddinwp</a><b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Eso es Todo<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Isso Ã&#169; Tudo<b:else/><data:messages.noResultsFound/></b:if>
       </b:switch>
     </b:includable>
     <b:includable id='layout-js-options'>
@@ -1521,7 +1521,7 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
             <a class='show-seoify-pro-mobile-menu' href='javascript:;'/>
             <div class='main-logo-wrap'>
               <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Main Logo' showaddelement='no'>
-                <b:widget id='Header1' locked='true' title='Imam Uddin, imamuddinwp (শিরোলেখ)' type='Header' version='2' visible='true'>
+                <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-KbcPNefFcVY/YWu-Z_upK7I/AAAAAAAAL9w/byPamB7h5XE755qq_dr9ZNY7hP3kwMxhwCLcBGAsYHQ/s150/imam-uddin-imamuddinwp.png</b:widget-setting>
                     <b:widget-setting name='displayHeight'>35</b:widget-setting>
@@ -1639,7 +1639,7 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
       <b:section class='header-ad container row-x1' id='header-ad' maxwidgets='1' name='Header ADS' showaddelement='yes'>
         <b:widget id='HTML5' locked='false' title='' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="/">
+            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://imamuddinwp.com">
 <img alt="imam-uddin-imamuddinwp"  src="https://1.bp.blogspot.com/-KbcPNefFcVY/YWu-Z_upK7I/AAAAAAAAL9w/byPamB7h5XE755qq_dr9ZNY7hP3kwMxhwCLcBGAsYHQ/s0/imam-uddin-imamuddinwp.png"/></a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
@@ -1965,31 +1965,30 @@ headlength = document.getElementById("post-toc").getElementsByTagName("h3").leng
         </b:section>
         <b:section class='home-ad' cond='data:view.isHomepage' id='home-ads-1' maxwidgets='1' name='Home ADS 1' showaddelement='yes'/>
         <b:section class='main' id='main' maxwidgets='1' name='Main Posts' showaddelement='yes'>
-          <b:widget id='Blog1' locked='true' title='ব্লগ পোস্টগুলি' type='Blog' version='2' visible='true'>
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
             <b:widget-settings>
+              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
               <b:widget-setting name='commentLabel'>Post a Comment</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
-              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-              <b:widget-setting name='timestampLabel'>-</b:widget-setting>
-              <b:widget-setting name='reactionsLabel'/>
-              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
-              <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-              <b:widget-setting name='showLocation'>false</b:widget-setting>
-              <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-              <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='backlinksLabel'/>
-              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showCommentLink'>true</b:widget-setting>
               <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showAuthor'>true</b:widget-setting>
               <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='timestampLabel'>-</b:widget-setting>
+              <b:widget-setting name='reactionsLabel'/>
+              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+              <b:widget-setting name='style.layout'>1x1</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>
+              <b:widget-setting name='showLocation'>false</b:widget-setting>
               <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
+              <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+              <b:widget-setting name='postsPerAd'>1</b:widget-setting>
               <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
               <b:widget-setting name='showReactions'>false</b:widget-setting>
             </b:widget-settings>
