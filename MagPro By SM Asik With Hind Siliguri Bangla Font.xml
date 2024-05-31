@@ -1602,7 +1602,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:case value='nextPost'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Next Post<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Artículo Siguiente<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Próxima Postagem<b:else/><data:messages.older/></b:if>
 <b:case value='followByEmailText'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Get all latest content delivered straight to your inbox.<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Obtener todo el contenido más reciente directamente en su correo electrónico.<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Obtenha todo o conteúdo mais recente diretamente na sua caixa de entrada.<b:else/><data:messages.getEmailNotifications/></b:if>
 <b:case value='loadMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>Load More<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Carga Más<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Carregar Mais<b:else/><data:messages.loadMorePosts/></b:if>
-<b:case value='noMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>That is All<b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Eso es Todo<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Isso é Tudo<b:else/><data:messages.noResultsFound/></b:if>
+<b:case value='noMorePosts'/><b:if cond='data:blog.locale.language == &quot;en&quot;'>That is All...<a href='https://imamuddinwp.com/search' style='opacity: 0.01;'>imamuddinwp</a><b:elseif cond='data:blog.locale.language == &quot;es&quot;'/>Eso es Todo<b:elseif cond='data:blog.locale.language == &quot;pt&quot;'/>Isso é Tudo<b:else/><data:messages.noResultsFound/></b:if>
       </b:switch>
     </b:includable>
     <b:includable id='linklist-content'>
@@ -2785,7 +2785,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
       <div class='container row-x1'>
         <div class='header-logo-wrap'>
           <b:section class='main-logo' id='main-logo' maxwidgets='1' name='Main Logo' showaddelement='no'>
-            <b:widget id='Header1' locked='true' title='DEMO (Header)' type='Header' visible='true'>
+            <b:widget id='Header1' locked='true' title='Test Blog (Header)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'>https://4.bp.blogspot.com/-SaNIDqZsIIs/XnuhCG9GB4I/AAAAAAAAB8c/GZmCqqteHKYwZaAyxIcTv4-tm-x6sm_ygCK4BGAYYCw/s1600/magpro.png</b:widget-setting>
                 <b:widget-setting name='displayHeight'>40</b:widget-setting>
@@ -2963,30 +2963,28 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:section class='main' id='main' maxwidgets='1' name='Main Posts' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
             <b:widget-settings>
+              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
               <b:widget-setting name='commentLabel'>Post a Comment</b:widget-setting>
+              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
               <b:widget-setting name='authorLabel'>by</b:widget-setting>
-              <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+              <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+              <b:widget-setting name='showAuthor'>true</b:widget-setting>
+              <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+              <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='timestampLabel'/>
               <b:widget-setting name='reactionsLabel'/>
               <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+              <b:widget-setting name='showLabels'>true</b:widget-setting>
               <b:widget-setting name='showLocation'>false</b:widget-setting>
+              <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-              <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-              <b:widget-setting name='backlinksLabel'>You might like</b:widget-setting>
-              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
-              <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='showCommentLink'>true</b:widget-setting>
-              <b:widget-setting name='style.urlcolor'>#ff2232</b:widget-setting>
-              <b:widget-setting name='showAuthor'>true</b:widget-setting>
-              <b:widget-setting name='style.linkcolor'>#f5f6f7</b:widget-setting>
-              <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-              <b:widget-setting name='showLabels'>true</b:widget-setting>
-              <b:widget-setting name='postLabelsLabel'>Tags</b:widget-setting>
-              <b:widget-setting name='showBacklinks'>true</b:widget-setting>
+              <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+              <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='showInlineAds'>false</b:widget-setting>
               <b:widget-setting name='showReactions'>false</b:widget-setting>
             </b:widget-settings>
@@ -3647,7 +3645,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
           </b:widget>
         </b:section>
         <b:section class='sidebar sidebar-tabs magpro-pro-widget-ready' id='sidebar-tabs' maxwidgets='3' name='Sidebar Tabs' showaddelement='yes'>
-          <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts' visible='true'>
+          <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
               <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -3754,11 +3752,11 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
           </b:widget>
         </b:section>
         <b:section class='sidebar magpro-pro-widget-ready' id='sidebar-b' name='Sidebar B' showaddelement='yes'>
-          <b:widget id='Label2' locked='false' title='Main Tags' type='Label' visible='true'>
+          <b:widget id='Label2' locked='false' title='Main Tags' type='Label' version='2' visible='true'>
             <b:widget-settings>
               <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
               <b:widget-setting name='display'>LIST</b:widget-setting>
-              <b:widget-setting name='selectedLabelsList'/>
+              <b:widget-setting name='selectedLabelsList'>Fiverr,SEO,Upwork,blog tips,e-commerce,fiverr rules,freelancer story,আপওয়&#2494;র&#2509;ক,ফ&#2509;র&#2495;ল&#2509;য&#2494;ন&#2509;স</b:widget-setting>
               <b:widget-setting name='showType'>ALL</b:widget-setting>
               <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
             </b:widget-settings>
@@ -3974,9 +3972,9 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
               <b:widget-setting name='shownum'/>
               <b:widget-setting name='item-3'><![CDATA[{icon: "instagram", url: "#"}]]></b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='item-2'><![CDATA[{icon: "youtube", url: "#"}]]></b:widget-setting>
-              <b:widget-setting name='item-1'><![CDATA[{icon: "twitter", url: "#"}]]></b:widget-setting>
-              <b:widget-setting name='item-0'><![CDATA[{icon: "facebook", url: "#"}]]></b:widget-setting>
+              <b:widget-setting name='item-2'><![CDATA[{icon: "youtube", url: "https://www.youtube.com/@imamuddinwp"}]]></b:widget-setting>
+              <b:widget-setting name='item-1'><![CDATA[{icon: "twitter", url: "https://twitter.com/imamuddinweb"}]]></b:widget-setting>
+              <b:widget-setting name='item-0'><![CDATA[{icon: "facebook", url: "https://www.facebook.com/imamuddinwpbd"}]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
@@ -3994,8 +3992,8 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
         <b:section class='footer-copyright' id='footer-copyright' maxwidgets='1' name='Footer Copyright' showaddelement='yes'>
           <b:widget id='Text150' locked='true' title='' type='Text' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'>&lt;div id=&quot;credits&quot;&gt;Created By &lt;a href=&#39;/&#39;&gt;Your Name&lt;/a&gt; | Designed By &lt;a id=&quot;creditlink&quot; href=&quot;https://www.banglatechspot.com/&quot;&gt;BanglaTechspot&lt;/a&gt; &lt;i class=&quot;fa fa-check-circle&quot; style=&quot;color:rgb(17, 143, 249)&quot; title=&quot;Verified Author&quot;&gt;&lt;/i&gt;
-&lt;/div&gt;</b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<div id="credits">Created By <a href='https://imamuddinwp.com'>ImAmUdDiN</a> | Designed By <a id="creditlink" href="https://imamuddinwp.com/">MagPro</a> <i class="fa fa-check-circle" style="color:rgb(17, 143, 249)" title="Verified Author"></i>
+</div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:if cond='data:widget.sectionId == &quot;footer-copyright&quot;'>
@@ -4022,8 +4020,8 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
               <b:widget-setting name='text-5'>RTL Version</b:widget-setting>
               <b:widget-setting name='text-4'>Privacy Policy</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'>#</b:widget-setting>
-              <b:widget-setting name='link-2'>#</b:widget-setting>
+              <b:widget-setting name='link-1'>https://www.imamuddinwp.com/p/about-me-who-am-i.html</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.imamuddinwp.com/p/contact.html</b:widget-setting>
               <b:widget-setting name='link-0'>/</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main' var='this'>
@@ -4041,7 +4039,7 @@ body#layout:after{content:'Design by Templateify.com';display:block;font-family:
   <!-- Hidden Widgets -->
   <div id='hidden-widgets-wrap' style='display:none'>
     <b:section class='hidden-widgets' deleted='true' id='hidden-widgets' maxwidgets='2' showaddelement='no'>
-      <b:widget id='ContactForm1' locked='true' title='Contact form' type='ContactForm' visible='true'>
+      <b:widget id='ContactForm1' locked='true' title='Contact form' type='ContactForm' version='2' visible='true'>
         <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
       <b:include name='content'/>
