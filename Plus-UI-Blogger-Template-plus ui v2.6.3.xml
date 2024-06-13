@@ -4126,7 +4126,7 @@ function ctgryPst(f,y,e,T,x,Z){var a=blogUrl.replace(/.*?:\/\//g,"//"),t=0<f.len
           </b:widget-settings>
           <b:includable id='main'>
             <!--[ Cookies Consent ]-->
-            <div class='ckW' id='ckWrap'><div class='ckA'><div class='ckH'><data:title/></div><div class='ckD'><data:content/></div></div><div class='ckF'><button class='ckB' id='ckAccept'>Accept</button><a class='ckB' href='https://policies.google.com/technologies/cookies' target='_blank' title='Cookie Policy'>More Details</a></div></div>
+            <div class='ckW' id='ckWrap'><div class='ckA'><div class='ckH'><data:title/></div><div class='ckD'><data:content/></div></div><div class='ckF'><button class='ckB' id='ckAccept'>Accept</button><a class='ckB' href='https://www.imamuddinwp.com/p/cookie-policy.html' target='_blank' title='Cookie Policy'>More Details</a></div></div>
           </b:includable>
         </b:widget>
         <b:widget cond='!data:view.isPreview' id='HTML22' locked='true' title='Oops!' type='HTML' version='2' visible='true'>
