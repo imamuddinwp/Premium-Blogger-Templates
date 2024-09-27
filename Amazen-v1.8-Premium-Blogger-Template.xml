@@ -3479,7 +3479,7 @@ body#layout #hidden-widgets,body#layout #slide-menu{display:none!important}
       <b:section id='cookie-consent-section' maxwidgets='1' name='Cookie Consent' showaddelement='no'>
         <b:widget id='Text51' locked='true' title='$ok={Accept !} $days={7}' type='Text' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[Our website uses cookies to improve your experience. <a href="#">Learn more</a>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[Our website uses cookies to improve your experience. <a href="https://imamuddinwp.com/search/">Learn more</a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='text-content'/>
